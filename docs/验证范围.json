@@ -1,0 +1,2792 @@
+{
+  "status": "passed",
+  "target_files": 463,
+  "unchanged_baseline_files": 252,
+  "target_check": "All 463 target resources reconstructed from original ISO/PKG and final SHA256 checked by installer.prepare. Original ISO disconnected in subsequent unchanged-file pass.",
+  "baseline_check": "Unchanged installed game files checked against original manifest MD5 and sizes after ISO disconnected.",
+  "files": [
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/LAUNCHDATA.BND",
+      "bytes": 20007536,
+      "sha256": "c263d7111c6f469c6f51ce3c3b15ab2c6f0762e7ef0d77ecbf573621a3e0942e"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MENU/CREDIT/ENDROLL/TEXT/E000.FMG",
+      "bytes": 26594,
+      "sha256": "3ddc4c3b7f605f074e677c4fcb8ab9d1a7334951379b01675f9749c766cecd1f"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_01_01_0.BHD",
+      "bytes": 3392,
+      "sha256": "acd0e58efff9376e6819a2fd5253055999efae31a44378d25e0ed9b451b861ce"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_01_01_0.BDT",
+      "bytes": 32160,
+      "sha256": "51495309706a0e77935a802df78a4f5ac0af49ce3534dd98c957f31aef0acede"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_02_01_0.BHD",
+      "bytes": 3370,
+      "sha256": "082499cc2c97f43cd0adcce185a0a0ed9dbad6042ae80538abf9bd4555eeb48f"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_02_01_0.BDT",
+      "bytes": 188528,
+      "sha256": "e1c2afd35a7a0de1e2b7e58d8737174daba2192ef2249ceeb7c494b1e171f0cb"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_02_01_1.BHD",
+      "bytes": 3422,
+      "sha256": "df59ac51a9520c3b7a1375da0635cf8dbf57da19b6baf733a217ac9ce3736318"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_02_01_1.BDT",
+      "bytes": 388304,
+      "sha256": "b322d17473e29a0fb3f6fccce0abaceada47c4bef10b65490e9195ce40578526"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_02_01_2.BHD",
+      "bytes": 3422,
+      "sha256": "f82ed366e26dc0076d399e8e00174f01fd08ecc2b6c83f3974aaa399c729a652"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_02_01_2.BDT",
+      "bytes": 555360,
+      "sha256": "1164d75b7c4fb19ba4837a2515940a365946d0010b6ad3054534c665ee51e522"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_02_01_3.BHD",
+      "bytes": 3370,
+      "sha256": "56377c0c0af09121b16bd5546333d430e1bfec31cab6c9ba852b5b0a5fcff849"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_02_01_3.BDT",
+      "bytes": 165680,
+      "sha256": "090a3947b79fdcf9a5a4e878000f3cf5fcc683f4da4b5c4aa745d345b76f4e7d"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_02_01_4.BHD",
+      "bytes": 3370,
+      "sha256": "acd5b7530c4b389d73bc02440311ea75678f7e9cbb649f6f5c56dbc5b9ecb3d9"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_02_01_4.BDT",
+      "bytes": 200912,
+      "sha256": "d9528b707e0d982cc032c66aa1bec464b029895fd623bcd0124bbbb7e5604118"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_02_01_5.BHD",
+      "bytes": 3370,
+      "sha256": "50863a779ce909c2f07370c013163e4654e50c09db8ac110f40a913893e66248"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_02_01_5.BDT",
+      "bytes": 158752,
+      "sha256": "fbbc784d0d5ca269632d7df3e139f812ac6b4b2036295cc29ac6bf01363fcb55"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_01_0.BHD",
+      "bytes": 3786,
+      "sha256": "9c4974af3816cd319b71a85746a8ee97c5e3dd58f868df5601a63a08e66cdb21"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_01_0.BDT",
+      "bytes": 6470432,
+      "sha256": "d6e0d23e1288e2ddacab0b763ec234bfb7bea968a80c8bf5c12f5a11a8989579"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_10_2.BHD",
+      "bytes": 3422,
+      "sha256": "30c87dce7b4a8c1714f1310b3547e5d5dcd3bf78fc3715ca093a32dd5b4c071f"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_10_2.BDT",
+      "bytes": 414560,
+      "sha256": "f4119bec2661fbb46cb7d271c108f4b6f173af857b1b6cece81429c753835e3a"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_11_1.BHD",
+      "bytes": 3786,
+      "sha256": "8a76aecf460de9c3e20e14d06908ac188464a6dfd0111584771f7a657cfc4b10"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_11_1.BDT",
+      "bytes": 7741648,
+      "sha256": "17e4f02979459182400cefec21fbd45bb6092ac2c1d2c93e5f68672364d79947"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_11_2.BHD",
+      "bytes": 3734,
+      "sha256": "1048b54289aecda63944a5a238b1802063cfacf1f8111f4737ce97c25ada8375"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_11_2.BDT",
+      "bytes": 6387648,
+      "sha256": "3ba47660085512b1cc2f8ef73950867ef2a226af4208d2a392d22c0a31c7173b"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_11_3.BHD",
+      "bytes": 3734,
+      "sha256": "aa69b680c2495219ed5e8d4fd76ac9bdbe9d5cb0c54caf6aed10e96d65b1e9c5"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_11_3.BDT",
+      "bytes": 6354912,
+      "sha256": "e76dea30354759f1355a7a47884c6bb2a698dd30ac9c26c69b41add1ed19a2b6"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_13_1.BHD",
+      "bytes": 3474,
+      "sha256": "2d57fc6977bd5e4e860b2953607bdd8c060703c342a459dfad887e0542d9d4a3"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_13_1.BDT",
+      "bytes": 1524864,
+      "sha256": "245cfa82a679b49059d6668921c014281609469bb54c5f25c2e7de6e8a6bbca8"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_13_4.BHD",
+      "bytes": 3422,
+      "sha256": "a21a048fbc99c66ce2cdc00d22b53b784e105c387dee6629ce55b2e054baa7ad"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_13_4.BDT",
+      "bytes": 425984,
+      "sha256": "f37443deaa7fe3e5eb4e8a41ffe529c7cdded010a0d091e404651c56632ec5ad"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_15_1.BHD",
+      "bytes": 3474,
+      "sha256": "23a83e893a29ae7c1891520d0c3fe7bbbc5c4c55451393c4bfef3cbf5620ef06"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_03_15_1.BDT",
+      "bytes": 1710800,
+      "sha256": "f7aa6098d1f286b06b9fef145a619eb825b24c7c04b3d610925d6de8e72609d1"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_04_01_0.BHD",
+      "bytes": 4514,
+      "sha256": "2dd43fccb1e6036bab156cc11c29f8f05eefdd7821006ded15a9d1b77bad2432"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_04_01_0.BDT",
+      "bytes": 16138912,
+      "sha256": "e51104d23d187436a74ff68fb248a0a6a418ed18ed524e94183ebcb4a2e7875e"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_04_02_0.BHD",
+      "bytes": 3474,
+      "sha256": "8c3eb8fc00bcd82334a045e2dd4d0600d1e238e9c5eafcb550f8c6bf5563be3f"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_04_02_0.BDT",
+      "bytes": 850624,
+      "sha256": "21acdd44e58871468a433d54f0cfe51ad36ee0092f13069beb8522c2c16bfe0b"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_04_12_3.BHD",
+      "bytes": 3526,
+      "sha256": "ffa1e6b4476e041b7a32a4068b45dd2615873f32de030aa27e59714d6edcc319"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_04_12_3.BDT",
+      "bytes": 581728,
+      "sha256": "3999e3a14579f149d41f3914a42839f9854c94003fcf4c5e602b3b3c014aaf2e"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_04_14_2.BHD",
+      "bytes": 3526,
+      "sha256": "6cba98a48e7049fc576d3769d02ac3d6509e04e851251a0c97b6de5744de38c8"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_04_14_2.BDT",
+      "bytes": 510496,
+      "sha256": "ab43637b6a00fc8aa94f9d1668c66ca0618a43ed494817dcccf78b32b48ba68a"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_05_01_0.BHD",
+      "bytes": 4202,
+      "sha256": "1521056ee75d31cd8fdc4a3fb88ea41502e3168b7d1eae315f3f67b05f398b31"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_05_01_0.BDT",
+      "bytes": 5427248,
+      "sha256": "ef980ebb14d3575776638c7b85daccd78d6aeb26e4a21a77aeafd2bf9a3e4bd5"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_05_02_0.BHD",
+      "bytes": 4358,
+      "sha256": "e7a16974579fe6425ebb6075f03c556644cda615ebbc82b3a09e607e8b96843b"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_05_02_0.BDT",
+      "bytes": 7036720,
+      "sha256": "5e6b4ffca804a74f343320bf16f4cbeb7caec2c4fa558a1ee26b11c04a8cc3a8"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_05_03_0.BHD",
+      "bytes": 3474,
+      "sha256": "b91280766e6bf2890d44ef33fa9762d6e49d5bd678e1e9bf434b553aaccbec63"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_05_03_0.BDT",
+      "bytes": 835984,
+      "sha256": "69fdd8c279af604701bb7c994b9ebe4d15cb0a9a1487aeb20f772ac20a5105ab"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_06_01_0.BHD",
+      "bytes": 4098,
+      "sha256": "4e8b2842ff5ed1026b90ed41aa3cb059b8b9e4f8562c3f3103d185be776b4244"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_06_01_0.BDT",
+      "bytes": 5672368,
+      "sha256": "d93afe619c0a79d7c5e26f0c9db95bd651ae21bfa61a933a2c12416abdcf6d88"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_06_02_0.BHD",
+      "bytes": 4098,
+      "sha256": "22c734450a0f19e51656a34a75c9c50ddfe130cd846a337fbd99dc82a84ad253"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_06_02_0.BDT",
+      "bytes": 5564672,
+      "sha256": "57210312fd62532563595110382bcc9c2541b64220f6fb764145588ceda9d048"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_06_14_1.BHD",
+      "bytes": 3526,
+      "sha256": "fd862cef82e5ce549b25ec83545b1e2032f9bfe9b1fbb4ae2d3e7811ff4f86b9"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_06_14_1.BDT",
+      "bytes": 2968960,
+      "sha256": "c40e45c1dba9123d62078bdb5e75e46abf4f248ba2348165123fc0160c6b950d"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_06_15_2.BHD",
+      "bytes": 3526,
+      "sha256": "8be07c410b099d4d814d0eec5a21e6be2a309b3b6240fd6e2b4b2a82e7e23638"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_06_15_2.BDT",
+      "bytes": 2928320,
+      "sha256": "dbdda03e6e018dfe7cb8dfbd6b6fbc26c76a5d3153d8d660c8bb85483b271bce"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_01_0.BHD",
+      "bytes": 4982,
+      "sha256": "2bf621c550a53b40242156b0b544eb749fe086b0bf4eb02c099153e36f2f6065"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_01_0.BDT",
+      "bytes": 10703584,
+      "sha256": "c517ac690990c4f8b2a9ed4b3427ef620b1c005995375268c3ffbe2590370015"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_02_0.BHD",
+      "bytes": 4618,
+      "sha256": "234d3391e11e7c468a0052c2fea8d9d7b91fe933b03031f5b402b132671adafe"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_02_0.BDT",
+      "bytes": 5396832,
+      "sha256": "0367448596c175899d06a18db55b0b1da5947647d4e38223a0c74cfe8bf01a4e"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_03_0.BHD",
+      "bytes": 5138,
+      "sha256": "cbc7652b08e731fad046d4c5dd8dacd1bfe29a60e267ecd6629c46897cc66a0d"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_03_0.BDT",
+      "bytes": 15559760,
+      "sha256": "5240ddffeb32b97d5497b11cf802f102f5363fc4cf3b186b55ba1853e5a946fd"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_04_0.BHD",
+      "bytes": 4566,
+      "sha256": "7992724283b1a1b9fffb1bfdd3d8795f3bab038dc92755068ce1487d9f9dfc86"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_04_0.BDT",
+      "bytes": 3655024,
+      "sha256": "b2a54c5b39d120b0b1ed88005161b4b3039d6a604a4728f74fe63c8523b9bd2f"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_05_0.BHD",
+      "bytes": 4722,
+      "sha256": "c257633f5b8b8db7b86bd3bd8f39ddfd376e194ac2ae57fe5dd281b03243c56c"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_05_0.BDT",
+      "bytes": 5597312,
+      "sha256": "05a7a5cd35dc5328094b9496be498e8c7fafb1a2ce7e0229544a8a7a3cf24228"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_06_0.BHD",
+      "bytes": 4982,
+      "sha256": "01dbb5421580b2f76ae40a4774da23a8e617046f37c0fcb0222868917b01e019"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_06_0.BDT",
+      "bytes": 10683840,
+      "sha256": "4dad4558e930ec60a395804876dc367ee2b1bcb9832f7361d1f6d338b493804d"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_12_2.BHD",
+      "bytes": 4462,
+      "sha256": "f1663deb575a39893b2d71c8b6f08eed92b107383de46bd9c372d02aef5e735a"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_12_2.BDT",
+      "bytes": 3157328,
+      "sha256": "ae40faae70576840252f90e66a719abc76d29d02d9e6898f3bf2d705cba4e28c"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_14_3.BHD",
+      "bytes": 4514,
+      "sha256": "befdebe0850d515b33c3edc71402f7f93a208d0be4c3c1635e2c0d68604480a1"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_14_3.BDT",
+      "bytes": 3381648,
+      "sha256": "e1f65aff45f2ed82785afc53264374d506979f54e5c51d06164522ab6a846926"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_14_4.BHD",
+      "bytes": 4514,
+      "sha256": "f8634c36b3fd4b7ac2953394f010c3db62a6976d8778998e3f038ff63e4f597e"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_14_4.BDT",
+      "bytes": 3369760,
+      "sha256": "906b3f8544aa08d461bad379d9e8fb67a7ac028bcd74cd7c2845b686a2204564"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_15_4.BHD",
+      "bytes": 4514,
+      "sha256": "5b5f9e144e1ed4b0758978499b00a590fcaf8af93fc9955b8ec9eb9e27ba6ca7"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_07_15_4.BDT",
+      "bytes": 3345856,
+      "sha256": "3e149121326174bb2eab8872e964345412911cd97b72e17a5dbc60b63dbd1df3"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_01_0.BHD",
+      "bytes": 5762,
+      "sha256": "a9eafbd30304b2f67b215fd2ecf641059f29386ed5d8efce5ae008fce684f3a0"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_01_0.BDT",
+      "bytes": 28994608,
+      "sha256": "bd386bddbfd5c50d03618095d25a0427c6673e68b65840cceda301eb002db821"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_02_0.BHD",
+      "bytes": 3682,
+      "sha256": "5c5a7d1e0b443b2a98cd18c1ced8b380f9e15b54c1ce8558ce920c06ccc38767"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_02_0.BDT",
+      "bytes": 8645520,
+      "sha256": "c58ec24d3924f467286cd9becacec1ddfeaf6aa6293859710a9379d1d19cf1d4"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_03_0.BHD",
+      "bytes": 5398,
+      "sha256": "d0c9eed60b220c32163dee4d0eb352fd7ce062560fffbd17f0117c83bdb5fb6d"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_03_0.BDT",
+      "bytes": 23514192,
+      "sha256": "0add9d6f68f8334147b4b459d557255dd861bba9e04479c03be2bf0acced7574"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_04_0.BHD",
+      "bytes": 3682,
+      "sha256": "a1d48bc529054e19346f66f186dc13440dec6a27b652ad6b581c1c6f49036d54"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_04_0.BDT",
+      "bytes": 8814176,
+      "sha256": "ad91603016c526d170c20a9dddfbf4683e96e63d7ff7adc959b74ab9235af2b9"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_10_1.BHD",
+      "bytes": 3526,
+      "sha256": "6d913b1d0360b97e41959adb127a371a35bd28d1eff927073849e730431f6063"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_10_1.BDT",
+      "bytes": 3660416,
+      "sha256": "20542beef7f2e742182ba3e2f7638626c320fa3b8b477ca22077afd3972bbf4a"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_13_2.BHD",
+      "bytes": 3474,
+      "sha256": "ad5763d440ee3a76612e75fe4ad5298be2886422aa5c38c1bc9381ce01317a9c"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_13_2.BDT",
+      "bytes": 2644704,
+      "sha256": "c28b8baa027248b373b48816872cc5b725723d66511446f23b85dc567543aa19"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_13_3.BHD",
+      "bytes": 3526,
+      "sha256": "fb76373aaa0d0ec72616ffc7c7b82d20faf98145ff89336036864b051eb682c6"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_13_3.BDT",
+      "bytes": 3895664,
+      "sha256": "e6544a769ea69aa5594eef2b943a886e5eb8204359fd870423e3db6fb89ba63a"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_15_3.BHD",
+      "bytes": 3474,
+      "sha256": "4d3cf8b39bfed00d451fc4138f104ab332c0adcc31b16328083499173f3d2fb7"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_08_15_3.BDT",
+      "bytes": 2607520,
+      "sha256": "69d08f5de5aa19ab109112fafbe86f003ec0746f226c2f44f8ddbb5b379f7468"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_01_0.BHD",
+      "bytes": 3682,
+      "sha256": "d93edbcb486c99e020b96ef84d4dea5a17e25625798ccf836a1a713e77e5abed"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_01_0.BDT",
+      "bytes": 8784432,
+      "sha256": "a2205b1a44507ebe5378031faf6636c490078b627a17f7588d20250070fb4cf8"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_02_0.BHD",
+      "bytes": 3682,
+      "sha256": "8e65d771e2f43c8b8ccab5b6e1cb4cbb26c7dd07ff1f58eb2ee276358ed0404a"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_02_0.BDT",
+      "bytes": 8901968,
+      "sha256": "cc301ac3723d9ec560fe1eb0546de2d6aad57f10042f397f3f73785e585e660c"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_11_4.BHD",
+      "bytes": 3734,
+      "sha256": "164fd804d8726e4ebd3bef52e6f858b0d95b650ec26a47ee1dc3c1a84ffd6f02"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_11_4.BDT",
+      "bytes": 6343328,
+      "sha256": "0d8b7503bcc2c1015fefb4c626f967e61bcaf31a78a903626f6838ce19ec77f7"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_12_1.BHD",
+      "bytes": 3734,
+      "sha256": "06726d63204385f8f40ed2d424c15d5e293537fdac870be73b5a1c356d062c7f"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_12_1.BDT",
+      "bytes": 6346736,
+      "sha256": "0fe68df46186122144d6faa527745a462e249a97680a368eade2a4460a27c9a1"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_12_4.BHD",
+      "bytes": 3786,
+      "sha256": "58ffe69a239456fd56645bd616ab6e17c65560283010aeefbaaaf35df699476f"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_12_4.BDT",
+      "bytes": 7669248,
+      "sha256": "6aeb397523ba65ce5f1500a6248fda01cf0876b444d9b5cb79dee6d71eeb5811"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_13_5.BHD",
+      "bytes": 3422,
+      "sha256": "0c9d6fdc6cc7b98ac411aafc0ac01476733c12f2f3a7e6ac15975884edc40432"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_13_5.BDT",
+      "bytes": 473888,
+      "sha256": "25c35fd5c1e20d24e6052a330404e44f1ba47a5826826cfcaa7ad91c6a7071b5"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_14_5.BHD",
+      "bytes": 3422,
+      "sha256": "775e52782060f8a33f69fbfb638e299a5d43ad034190f6e1683bd2252c521a04"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_14_5.BDT",
+      "bytes": 403008,
+      "sha256": "ddb145fe2c32f9f4f4644c8412c5ac01b9db3b97c8052c01d7279a1d76912363"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_15_5.BHD",
+      "bytes": 3422,
+      "sha256": "8730ee6860a79c43d166f7a82b7450f6111298daea27adc457421768423e264f"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_09_15_5.BDT",
+      "bytes": 423856,
+      "sha256": "830343eee3f1f345664514c22d69641a7427530417b85558d398c44bf922867c"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_10_01_0.BHD",
+      "bytes": 4462,
+      "sha256": "8e5f0cb60885719d1fde8e1cf7e55022cd268dcaafb4ac49277d73bb3d0b5b2d"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_10_01_0.BDT",
+      "bytes": 19564816,
+      "sha256": "2aafdfad977165d0aa7eebedf454f61ae0717fde99323e5fc8f6185b92a78663"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_10_02_0.BHD",
+      "bytes": 4462,
+      "sha256": "cfdb44266b48b9eddeedf5db5a1935dc2c40b9c2ee477d9901b0b68220b8fbf3"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_10_02_0.BDT",
+      "bytes": 19615296,
+      "sha256": "69a1787e4baf52b09718f947db5661b97bd2a47a4b5051994642c4d81cb5f78c"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_90_01_0.BHD",
+      "bytes": 4662,
+      "sha256": "27387cd46c038c23175fa8fbb6f27f557145855ba358c45426c793f3ad0698f9"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/MISSION/M01_90_01_0.BDT",
+      "bytes": 28830656,
+      "sha256": "496fe9b7c7b28245b904fe27f7b05c760effe80298804385691900899cc9e49d"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/GAMEDATA.BHD",
+      "bytes": 148845,
+      "sha256": "db172c73dc8130212a888b193c9c61c0496c4bae6a0e79d4f5b5a8a18164e937"
+    },
+    {
+      "scope": "base",
+      "path": "PS3_GAME/USRDIR/GAMEDATA.BDT",
+      "bytes": 1800083424,
+      "sha256": "802c885dc64b28c831bd63e12bb8247a2b6b05f8fa5562e3e91603ad90ae253e"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/battleship/b01_041_00.bnd.edat",
+      "bytes": 4934432,
+      "sha256": "9241caf389c7601bd085a17ce6c4ce05af7a732682eb142998d1e980b94a72a8"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/battleship/b01_042_00.bnd.edat",
+      "bytes": 4944432,
+      "sha256": "73c50db64685dc548c8b4028759af9cbe8d22ed4d57c6e8bf39d8400c70f08a1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_013_00.bnd.edat",
+      "bytes": 108208,
+      "sha256": "a9ae7014e52c3e86ebe73a8c94f55b7c2f3ea5bf665bbc28eb7becde49c13faa"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_014_00.bnd.edat",
+      "bytes": 119488,
+      "sha256": "90655c8a38adbc785888c2a5712c3b9d6d8be876d84aa216b90d3562e6757191"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_024_00.bnd.edat",
+      "bytes": 109168,
+      "sha256": "756eff941182bfaf4a7f28b4955ae8be98c15c151796501eb9b3371c197b0964"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_025_00.bnd",
+      "bytes": 44064,
+      "sha256": "08417e483bb30e60b35e079dc66e9d0f7c466eb9c3a3a3e1f9a9e69ece468e2f"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_202_00.bnd.edat",
+      "bytes": 106768,
+      "sha256": "553729134d3dd75def6a3975b9f8ee7c69ba34d930316393224005abbf186211"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_203_00.bnd.edat",
+      "bytes": 134752,
+      "sha256": "4c9692306b197982f1f683f03d332e0ae2b0ee35022318d752599414b1dc5fea"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_211_00.bnd.edat",
+      "bytes": 128992,
+      "sha256": "42d5e5f9e734727458bec9e475f361c678188d33ca7951e243d0eca72723c403"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_513_00.bnd.edat",
+      "bytes": 78672,
+      "sha256": "7805159c70a5e5aa447cdef12f87061b59b001bb29eae97f1414f9c3638148d1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_514_00.bnd.edat",
+      "bytes": 52704,
+      "sha256": "d53afdabbd61e2cf7d57395d2c124d84d4075fa1b264418c9c1690bb636c14af"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_519_00.bnd.edat",
+      "bytes": 59408,
+      "sha256": "38ad3e425e5d6462ca9a5744dcd8dde7068e40f1911d3d4243e17fd864c6b052"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_522_00.bnd.edat",
+      "bytes": 52416,
+      "sha256": "b03325ed73b8dc74a5953c0414b33a961bcb69836284704c041034f64ccc7416"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_523_00.bnd.edat",
+      "bytes": 66320,
+      "sha256": "b3ae43b05a08dc4710ca57f2463b99eb4027b8352e709e6bf604ddba665f4e64"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_524_00.bnd.edat",
+      "bytes": 52784,
+      "sha256": "1845ce909b103ad456e8e4d5c99e3007802b0a02c9ebbece2d9776690388392b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_525_00.bnd.edat",
+      "bytes": 50672,
+      "sha256": "70f0c2361dcd3046d2377fdfa1e61d0952513f0e7a345fdb58f087714305af79"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_529_00.bnd.edat",
+      "bytes": 68144,
+      "sha256": "3a5f6b73aad9c312cbe3019b45c3da7c860941669a2fab1a4f33f015be5b5d11"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_530_00.bnd.edat",
+      "bytes": 53008,
+      "sha256": "4c741c217d57f7a052356b43a3a066ff480e06618b712be9c655778c14b17da5"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_543_00.bnd.edat",
+      "bytes": 64352,
+      "sha256": "3fab03df396dbf012cebe60fe31d6933b497d19c35a0299a0f3c7b7b466042d2"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_560_00.bnd.edat",
+      "bytes": 61776,
+      "sha256": "91138d5e83d75bff8238dc7b61c1ff6e3437bacc66ab27d8f27a05c731c186a8"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_561_00.bnd.edat",
+      "bytes": 55872,
+      "sha256": "9fd8682ec6d285edc3af50f5023c06c47757b294431a11599af235c3304e8ea6"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_702_00.bnd.edat",
+      "bytes": 70960,
+      "sha256": "134be7e55b3b415fbc7340ca6d0bab62935bdca585d43c4729cd61d58ec9e7de"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p01_703_00.bnd.edat",
+      "bytes": 69616,
+      "sha256": "e600354d8014c5c6381ed9b595c80efa7562d18b6e3db50368e53879562941fb"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p04_010_00.bnd.edat",
+      "bytes": 98512,
+      "sha256": "aea007761aa6c994fce92b58f1a5dfd7a5e12bd80cb7b5ac37c0d99a15e24959"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/crew/p04_200_00.bnd.edat",
+      "bytes": 94064,
+      "sha256": "f19d302bf065ccfff7dc7d08c7007505016c8019af9a7a58a1255c4b4a5ad77b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0013.fmg",
+      "bytes": 4812,
+      "sha256": "8a0e20e3eb08443d1590c32d7e95943080881107c2d26557724bf214f9ba4e28"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0014.fmg",
+      "bytes": 286,
+      "sha256": "71d6f72cb6d236a3fe7a1653e1dbb01240365e4193b16ac87074a20cd7fa96c8"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0030.fmg",
+      "bytes": 306,
+      "sha256": "df757666fae52a3217ee84e08d3d5b9eb00eaadb15e734bfef45b4345519d32a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0040.fmg",
+      "bytes": 570,
+      "sha256": "98b38fec6d77c463c4cca6f1d1d674e739f17bc97bb506a540f6aa04b1c3c3ca"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0050.fmg",
+      "bytes": 602,
+      "sha256": "9250398b114222bfd03b3ae0315cc5d33c6d17d2904abd4df3612dab8fa42f27"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0060.fmg",
+      "bytes": 294,
+      "sha256": "48467b5fd6edc5d502c5602284dbb17ef879c68b1ca51f462d6eb9281795ef67"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0071.fmg",
+      "bytes": 2086,
+      "sha256": "da50a7b0c1aa9931115e7ccbd601bbe2fc4162f9903ca49f5d2d14bfb1974ad3"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0080.fmg",
+      "bytes": 270,
+      "sha256": "3b0eaea2f14c23b13426810d5239c7d5e2297b780ae0024b3d3b4a90302b4059"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0081.fmg",
+      "bytes": 276,
+      "sha256": "198e33a87852d419adec7ebe6ed746290265688ca12ab15ed2d5b95db9325ba2"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0090.fmg",
+      "bytes": 306,
+      "sha256": "028ee6a5c63d1029cfe167168eae299d5378c724f827d8f7530482a1c76c1f57"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0091.fmg",
+      "bytes": 314,
+      "sha256": "52432bdc996f2684e83350bee35b885c69c6b12bf1b0c7d5bd9b818d542d9bf7"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0100.fmg",
+      "bytes": 306,
+      "sha256": "f864977abb78d312457cb239b074427eef2a45d7871d78ac39814644863e184c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0101.fmg",
+      "bytes": 454,
+      "sha256": "c2fb464b840a5e20a5b662dc940f2d69d433a730c640b3ce557a73d76257e83c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0110.fmg",
+      "bytes": 284,
+      "sha256": "52598aaed6115c0198fbf1ae09984fd6fad084042272c8b501136a9f6818a41f"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0111.fmg",
+      "bytes": 316,
+      "sha256": "57e3d66ecdc47c777cd9cac708988811f615dc06e62b22a5a7d058183a3e438e"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0120.fmg",
+      "bytes": 286,
+      "sha256": "b20727c325cbb6eb3ce900bd89a3cce4c968e497f1916f52a21d77f875560ad0"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0121.fmg",
+      "bytes": 328,
+      "sha256": "3cb6d8ac40e48b87724aede49fc8bfc3d809ad1080d3f26afeb7b7196e346b9f"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0130.fmg",
+      "bytes": 684,
+      "sha256": "2b854232c64b3613301a75b57a3ce19be2e8794a33de4e3beba43032cd942e3a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0150.fmg",
+      "bytes": 528,
+      "sha256": "80e7211dbbbc4d8646d839092261f01640a6c5ec2568d30625ec880fdd086707"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0160.fmg",
+      "bytes": 282,
+      "sha256": "7c4018bdc76a2251e22b5f48234312dac18627d20687496f575259ab722f674c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0170.fmg",
+      "bytes": 270,
+      "sha256": "bfde8ab444732b5ac1a72861a9d534f59a4c352b7f5aeeca169ff383fa835d53"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0180.fmg",
+      "bytes": 270,
+      "sha256": "44bbaa605bc3b57af281b1673ddff08119eeb9871bd09c1c73063e5a848898d4"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0190.fmg",
+      "bytes": 278,
+      "sha256": "708dbd3fc59d473f79ee1264a16a90964c2835d29a4c05c658e18a3bc1657013"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0200.fmg",
+      "bytes": 270,
+      "sha256": "8392d4c8e7499f7a2c69811ff4afa6edbaa624a1423856e4896b76b2bb2e5b0a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0210.fmg",
+      "bytes": 270,
+      "sha256": "5e1769d513cebe6df71b45c4bc135ac978f94def40fa3e7d43d5f8ba33d89961"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0220.fmg",
+      "bytes": 276,
+      "sha256": "a804d0974b046f1b4392c64447950e1b0ea7fefbdf09bd1586fc27b9dc9b22a6"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0230.fmg",
+      "bytes": 290,
+      "sha256": "90f130bc9cbd336e67807dc32be9f18a7d852db6016fb5ee6711667e2ad7160b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0240.fmg",
+      "bytes": 270,
+      "sha256": "6ce81408194060f08df51b090e832f23041ad22d8270d156d801445e13b1ad4a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0250.fmg",
+      "bytes": 262,
+      "sha256": "2d24713ca56dcef70c171c32d4b3f7949934ac49c5d26114a173e5677f01b215"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0260.fmg",
+      "bytes": 282,
+      "sha256": "516ab28eba1879a19e588362e6bb97d219a4091a2fdda6670fa4989e2289362e"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0270.fmg",
+      "bytes": 282,
+      "sha256": "759e13463246a7d6d66689eae20f3aa6755e5577010698b2eaf11a40ef171f65"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0280.fmg",
+      "bytes": 264,
+      "sha256": "6966e7a5013b34cf5f2cd0a13dbb38f9f47f2820e8f0df145572f08e9275f313"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0290.fmg",
+      "bytes": 284,
+      "sha256": "96bf590c9da747db0856ffd2660e117a9eb1071dee9bd2ef9f042dae7dcc6f4b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0300.fmg",
+      "bytes": 286,
+      "sha256": "ee0242cb242941d9f8f1079285f5d689840582682eb865baee33700557313d63"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0310.fmg",
+      "bytes": 272,
+      "sha256": "d2871a04d888d124116df6b86f26bb82cd0ae5a3b44c6c81312022ebd427811a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0320.fmg",
+      "bytes": 284,
+      "sha256": "398ee8e2406338ffe656388646f1e05f12a44553474ea2897fc4279f0345193f"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/dlc/text/00/dlc0330.fmg",
+      "bytes": 296,
+      "sha256": "d063440bdb28abd828e498013902c62356c97c93969f6327126e2ed1fbbf862d"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/credit/endroll/text/e000.fmg",
+      "bytes": 26646,
+      "sha256": "c0f765f15327bd01961110188334f1fd05b8772a6d00ac4320fb61c6e6fa6f51"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0010.fmg",
+      "bytes": 80,
+      "sha256": "46a5932f03e47e0918f055737ca38a19bce4947c9b677b8817bca668f416ff89"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0012.fmg",
+      "bytes": 72,
+      "sha256": "8a91151c90e80adfc16b4ffa0fc3f7b7e878e8567d6e7366a107033884156e4a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0013.fmg",
+      "bytes": 80,
+      "sha256": "f38bc6c0f25e93cc5128fc5814cf7d7f174ea748c27767360980d29dbc96c77f"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0014.fmg",
+      "bytes": 68,
+      "sha256": "2bd8819f967e6bb115965c78371eb51f5dc8ff5249f27f3899da345a798bd7e5"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0030.fmg",
+      "bytes": 78,
+      "sha256": "94ac5e6ead5909de8610037325ea6a09bc291fdee81bddf94778267d31d9ff7a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0040.fmg",
+      "bytes": 76,
+      "sha256": "608eae146455705b011940cc6a8c044bd59a89e0693a7677e669972d7bfa6e20"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0050.fmg",
+      "bytes": 82,
+      "sha256": "b5fef7d5b2e16a00565809e26930daa1dc4d2a24decf3a77bc70950222a93853"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0060.fmg",
+      "bytes": 76,
+      "sha256": "a915192b5b93852326fe008abc0abbca934a9f2a277e62570ab5b09f4cd9fe05"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0071.fmg",
+      "bytes": 66,
+      "sha256": "e93008510b7995f36e6280b89f22c95ee708240b5fe3ded74149181661c359a6"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0080.fmg",
+      "bytes": 62,
+      "sha256": "85299f959fb63a02d51717fafe10832e03060b839380b2e73f6eee1640bfbdcf"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0081.fmg",
+      "bytes": 66,
+      "sha256": "5e9af0bd5ae424231bc220f863c03d6d7f083a46857e22776897d521c516620c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0090.fmg",
+      "bytes": 78,
+      "sha256": "ce62bd8469825efeb215fcdd6a41ce65db732cb7bbc45906cfbcf8df8668ef27"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0091.fmg",
+      "bytes": 82,
+      "sha256": "cd8a68cfa11b314bc5f257e896062b3b9284aa8166ff9e61c12492e832418ffe"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0100.fmg",
+      "bytes": 78,
+      "sha256": "39f3e69bae79719ae262214a4b45a841c24e01dbd86729a77dd7aa1b8e87c250"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0101.fmg",
+      "bytes": 82,
+      "sha256": "ff0b344b67c7747e565a3714a0f312b222714929d4faf075b8af98ff095fb264"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0110.fmg",
+      "bytes": 64,
+      "sha256": "c1a562baf44a92311bce8546f13a6f775303696183bdc326fc26a7cbaf6df7aa"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0111.fmg",
+      "bytes": 80,
+      "sha256": "a44c0cb08837781cd84e51642fa8abc5d90bc7255a5d9a041d08993a9f8eefc4"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0120.fmg",
+      "bytes": 64,
+      "sha256": "446cff0a5bb3c5daf38b6bf93334d9af107cab818597936695f4eb5f4f71e465"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0121.fmg",
+      "bytes": 86,
+      "sha256": "2b58b5c7c8f6c3239bbc972fb459ef3f0a815a4c6d43dd74a0e3d6dd4ec6fcc1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0130.fmg",
+      "bytes": 68,
+      "sha256": "1dd5a1d2ca23d9f2a4dbec15e1bc307a2e2d64b0b70618012b85171c012334b0"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0150.fmg",
+      "bytes": 62,
+      "sha256": "055c711d249e4efd66a1c24f13cace2af8b20ba7e5254b24292fd5ec447596bb"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0160.fmg",
+      "bytes": 66,
+      "sha256": "dcdbaf7a01ca33e7eaf0d78981116c5f3f7bbdb2a419a9375ebeb2b514fa7cb4"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0170.fmg",
+      "bytes": 60,
+      "sha256": "6db6211cc56fc52ffa897f6baec6cb9953970209afd190f601e86771abd0764c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0180.fmg",
+      "bytes": 60,
+      "sha256": "bc04266721eca312e71dcf5d176908cf3678a16be47198bbaa5afb154fa53357"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0190.fmg",
+      "bytes": 64,
+      "sha256": "edf31e2178d9e7db66a4d668fd09261c1293c4048dd7250d2d873204dc240e22"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0200.fmg",
+      "bytes": 58,
+      "sha256": "3363ff47e59d5f5584dc5498815c49b1e41d5c8f86ebe652063ecd44e171184f"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0210.fmg",
+      "bytes": 60,
+      "sha256": "daccd461de801a59b14e85d0cd0e6dd355299c5d1c8f6f8f643cdcdd2ef4c015"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0220.fmg",
+      "bytes": 64,
+      "sha256": "bbceef0d5f052987ace86b0c47d0c4f48d3d0cbc23bbca28a83c062b8924c0d0"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0230.fmg",
+      "bytes": 70,
+      "sha256": "2b41e5c0a11b6d1bcea9abd4841409f9e3210ca9808021510ecc577afeae5793"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0240.fmg",
+      "bytes": 60,
+      "sha256": "529e7b4571bd270345cc03ebc0be1ca0efcabd07383b85aebe9512fb731272b4"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0250.fmg",
+      "bytes": 58,
+      "sha256": "55c13af617214f150aaaf89dcda8f9350dcf8067028c63d922c533b89045dcd0"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0260.fmg",
+      "bytes": 66,
+      "sha256": "f18f35636143b57c30ece3a90e03863feb5eb16b50d7744bb496261fb7a4516b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0270.fmg",
+      "bytes": 66,
+      "sha256": "d2889c85150b5651b172a290b8c3ad188b70b6145fdfd974378c8ba8d3293427"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0280.fmg",
+      "bytes": 58,
+      "sha256": "81e16bd4117e8bafe9f06aa234b6d941dc025d6a7746fb21ce97c483a7056a7e"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0290.fmg",
+      "bytes": 66,
+      "sha256": "a02361f2a15fb90a0f7bb88b0a61713ff3413505e3f0f3e20ab9fafb3e8232a6"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0300.fmg",
+      "bytes": 68,
+      "sha256": "e6aae68376b7a22a0c7c08ca05971dfca4b484c82ef833eec790a53ceafcf236"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0310.fmg",
+      "bytes": 62,
+      "sha256": "f7faecf2246443a29027beb3c178314b77c9d4ae7166c29bf54ad2b62aa08b51"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0320.fmg",
+      "bytes": 68,
+      "sha256": "dd304c2fa332af1f768acca08fe00c772714b95d38113262a5759a7292d12c58"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0330.fmg",
+      "bytes": 74,
+      "sha256": "47a48b6e8e1f813e17980d35dd3314c67a1a8e0e6f3995e5ac3a48f19a8aa7ba"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0340.fmg",
+      "bytes": 62,
+      "sha256": "86172cc9f65547c85c151042da21de7d2b237da013f168f49a260b57f1a76891"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0350.fmg",
+      "bytes": 72,
+      "sha256": "50de51ac125ce47e00c2bbe74330ef486701c0b95de2870fd8c1558f2c40603c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0360.fmg",
+      "bytes": 62,
+      "sha256": "95b1e58375836fc9cb9887a35a273ba0bf6cd5009de2f52eadbfb2d1757dd7d4"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0370.fmg",
+      "bytes": 62,
+      "sha256": "b43176936508e37470cd38be611c58a6eab8848d54caf4702691ee5da2f274b3"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0380.fmg",
+      "bytes": 62,
+      "sha256": "83129116bf6c48f20af39b7e65bd2bdf8ee0c5a7d420aaab2ab7af0d62340c4a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0390.fmg",
+      "bytes": 58,
+      "sha256": "f892a87ef16ddaef0cb59a4ff35941adca24bca7ba488b8a13b6b4dd75bd6fa5"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0400.fmg",
+      "bytes": 58,
+      "sha256": "603e9917a1764d8a2a5f646d8b72c55dc6e4bd6b3f964cf54baf359a2ad870bd"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0410.fmg",
+      "bytes": 58,
+      "sha256": "90af19eea5128badfdcf1b31126e45385c09932c900ba18fe4b43613f9d3d7ed"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0420.fmg",
+      "bytes": 58,
+      "sha256": "e7c001d2784d68c1e83d523c69a4dab5dec3faa9b514b7a70fefb4905405e6f2"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/dlc_list/text/00/dlc0430.fmg",
+      "bytes": 58,
+      "sha256": "b20369c0e917633de6c8dea71e5aead6e2ce15f5fae596589dfc565e6a318190"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_03_30_0/outline.fmg",
+      "bytes": 390,
+      "sha256": "b6a680b6c980145ae3c2749fdcea7a8024d3561827335592aa25980f7676a8ed"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_03_30_1/outline.fmg",
+      "bytes": 382,
+      "sha256": "476e078989ea2650d10082fa9e74c96f05c3682c7ff81ed190a5fc4b9b20d66b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_03_35_0/outline.fmg",
+      "bytes": 414,
+      "sha256": "03b36bb85728839cdcfee9fade1a85155e09e429176e79a347589c19447d9754"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_03_35_1/outline.fmg",
+      "bytes": 374,
+      "sha256": "bb586443b3e0f6fc4197a4e4e663cc87bb9dd84547ee1e65e46b9f73fb3f1daa"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_03_40_6/outline.fmg",
+      "bytes": 312,
+      "sha256": "50d3ed56b8b0013164fb917cca2067f59284e0d3ccada237cae00da246bbd605"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_06_35_3/outline.fmg",
+      "bytes": 372,
+      "sha256": "247e1d167771786b30856188b27c3d39e040288ac18539b5df2155f5cdb5bee0"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_06_40_1/outline.fmg",
+      "bytes": 306,
+      "sha256": "bb954134c5120b824c6293cbf44b812c8f8bfde398bd90e4ce3e8d98616d2ef9"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_07_30_2/outline.fmg",
+      "bytes": 398,
+      "sha256": "8850f87b56a455f88459237bb36228aa0bc77ef66fe4cd244513969d8dd706ca"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_07_35_4/outline.fmg",
+      "bytes": 370,
+      "sha256": "ad1a5721fea439c5a7f0b144e87957c2cac37369f05ad8aacc09f0e6f65acac4"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_07_40_2/outline.fmg",
+      "bytes": 328,
+      "sha256": "b1065dfa74f0e1d7fffad7bde3e9668b94d707b701ed836681199d5fb0aa7555"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_07_40_3/outline.fmg",
+      "bytes": 328,
+      "sha256": "4d06ca432f7fa9952c926edd02cb38300e812d70daa12a18106d54a77134197e"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_08_35_5/outline.fmg",
+      "bytes": 376,
+      "sha256": "f0c0afe81f193d7f74f0951be9c08225785ab565e24ace1fe4673411435958e7"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_09_40_4/outline.fmg",
+      "bytes": 308,
+      "sha256": "cc9b4798c6d2502b48e7396cd081c57f31517acf98bd0a8d4f413f4d0350d787"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mission/m01_09_40_5/outline.fmg",
+      "bytes": 308,
+      "sha256": "22eaa9bff3541476802c1ce7c72046c203b496fc866c5e405adad9421fe1ebfe"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_030_00/weapon.fmg",
+      "bytes": 128,
+      "sha256": "1e014f759276b397e6a4a051e6f96c4e8f9a3720a6391c27908f1674b6a27c6e"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_064_00/weapon.fmg",
+      "bytes": 178,
+      "sha256": "ac0db44969398b239134938be60d0a9edc0693de62ab9fcf3f18d8ab8e307aa0"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_065_00/weapon.fmg",
+      "bytes": 178,
+      "sha256": "ac0db44969398b239134938be60d0a9edc0693de62ab9fcf3f18d8ab8e307aa0"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_066_00/weapon.fmg",
+      "bytes": 190,
+      "sha256": "bdfb435d3c1870cafad85c5ff3702e0f8cb8d0f4c6733f1343d5e6883ec814c4"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_067_00/weapon.fmg",
+      "bytes": 190,
+      "sha256": "bdfb435d3c1870cafad85c5ff3702e0f8cb8d0f4c6733f1343d5e6883ec814c4"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_072_00/weapon.fmg",
+      "bytes": 170,
+      "sha256": "ee026febe1b7e972a028f1d0b810ad3b29b2776f93e3dff74ca41421e7dac18d"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_073_00/weapon.fmg",
+      "bytes": 210,
+      "sha256": "7be21655563b97b63b2767461f3bbdb1ce5bdcfee8aea56d1a140bf2b79c478c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_074_00/weapon.fmg",
+      "bytes": 198,
+      "sha256": "e05f2555eecbaf579b2d41319f8276028edea55acb92292e417f415b8186507c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_075_00/weapon.fmg",
+      "bytes": 110,
+      "sha256": "4f9a83bbd4eb4425e0b077579937ea0737878fcb1f8732aa4df7d502ea5bc392"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_102_00/weapon.fmg",
+      "bytes": 122,
+      "sha256": "5fa2502893a55bd1f159a348af8dc8822e4ec685b00f0312abf8ac0b0de41694"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_114_00/weapon.fmg",
+      "bytes": 94,
+      "sha256": "e1d8e69a70d4f0e3f91d7df1b294fa6edf2881c7b4334583dda6484ede9bab7a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_210_00/weapon.fmg",
+      "bytes": 146,
+      "sha256": "687c707360e09afc4012ecb63a7167166e1ac91e346ba168909b00528e94d1bb"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_215_00/weapon.fmg",
+      "bytes": 152,
+      "sha256": "a576228c77ed5e822e4b16e0e685075929633355325c5b47a57c69712d91ad3d"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_502_00/weapon.fmg",
+      "bytes": 120,
+      "sha256": "30d2bdf8cf7dd7a09064cb74c2ccc51f9ee4daedd47a744877646c5a0dc0da43"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_682_00/weapon.fmg",
+      "bytes": 108,
+      "sha256": "eca8ad18da475ad801d05ab2d647c98df842d30ac653533e6334a4538f79ff6a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_683_00/weapon.fmg",
+      "bytes": 84,
+      "sha256": "f1fffa70444c6287bd475d6cedcadf78ac622da3ff4ef7b0bf2be1a7c77a8a70"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c01_701_00/weapon.fmg",
+      "bytes": 128,
+      "sha256": "ca6e99c2710987f0af22cb3380cd6b568745ec5e65ea7f76d24a9c6ce66013e3"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c04_010_00/weapon.fmg",
+      "bytes": 140,
+      "sha256": "085968c6d3e0af823da433b8c2ef20bfbc8f571293d053d39cebe5d3c45e4a38"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/mobilesuit/c04_500_00/weapon.fmg",
+      "bytes": 122,
+      "sha256": "ff2162bb5f3f81befff1d5f0d9cb2756622920091964aac035b8c03ce208426b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_07_01_01.bnd.edat",
+      "bytes": 2796976,
+      "sha256": "ed4936fabdc5027d2ae16b818aa2b3daa761f8d0b4f205c8ec2d9a6f13a528ac"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_07_01_02.bnd.edat",
+      "bytes": 9216512,
+      "sha256": "f3938881103279fb22c348bb566d13602803e9ed1f7f7a163a9927f0a3c0331f"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_07_02_01.bnd.edat",
+      "bytes": 3919408,
+      "sha256": "c551de7cc917e929bcc8dc55ebadb03b967ba4d1a791cf4e80d2eebaefb0abaf"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_07_03_01.bnd.edat",
+      "bytes": 5849024,
+      "sha256": "1b4ae98e1c4e9951386d9d1060ba71528e68fd02b2e3128844f034d1373d9bc1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_07_03_02.bnd.edat",
+      "bytes": 2911776,
+      "sha256": "f27acdc082d18d56ad8215a853cc8a0599ba89f6994cda735f45506c65dccab3"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_08_01_01.bnd.edat",
+      "bytes": 6425264,
+      "sha256": "9ae71e0d03b4b0bed0c4233c9c4277f44f2b8b74251666cca188aa5e781397e9"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_08_02_01.bnd.edat",
+      "bytes": 7549648,
+      "sha256": "66856b5272adf0010a22fa4b735c92e008c1cd1ff7707cc0ece80689fb056f76"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_08_02_02.bnd.edat",
+      "bytes": 7488000,
+      "sha256": "30ec0fe19356c3211c712b2702dd0c6bdbd247c2e141fc4ffbb238149d9df85c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_08_02_03.bnd.edat",
+      "bytes": 7811296,
+      "sha256": "2e1e52808a72fbf09be78e1a3ca1272f238250c6919dea2cee59621c53746227"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_08_03_01.bnd.edat",
+      "bytes": 8172272,
+      "sha256": "96514f85d7721d329b4f6ddbb5e631cd5a7f00a6c555d9bb11cacbe2a5632a4b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_08_03_02.bnd.edat",
+      "bytes": 6865280,
+      "sha256": "c3fd383561738baf27e4296dbc249300ba851a18509a1ae30bf8b7f7e357b0bb"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_09_01_01.bnd.edat",
+      "bytes": 5789264,
+      "sha256": "05a9663bbee8d9546e9cdf60c7aa98eb00125d43286d121d45922e1fc6845638"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_09_01_02.bnd.edat",
+      "bytes": 8397936,
+      "sha256": "cd19829e35697c97bf0e07fc3b0cc2f522389ecf806361dc327583e24d2f5050"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_09_02_01.bnd.edat",
+      "bytes": 4898912,
+      "sha256": "33b80696ee65f8bed4f9848bd3d5cabfd6b7ddc71be0c10922711784ec3d440f"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_09_02_02.bnd.edat",
+      "bytes": 6110928,
+      "sha256": "abdae85c2f7eed40803c6bbb958197e3aece2f4dd6bf6bf787178881e41c16c5"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_09_03_01.bnd.edat",
+      "bytes": 5821968,
+      "sha256": "b7b66c900c5c452a252bff6f5164692a466d286ccf64274e31eaa4c7d341ee06"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_09_03_02.bnd.edat",
+      "bytes": 7551984,
+      "sha256": "87386bf4013ea9761b2c2ad675b6bd2071c2bf44b3eee7dc0970256a0fda3580"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_10_02_01.bnd.edat",
+      "bytes": 7799328,
+      "sha256": "7a8ce6cc11b80f32a88a62401f02fdd48c3f71ba26acaeed0ddc052f3859db91"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_10_02_02.bnd.edat",
+      "bytes": 6157392,
+      "sha256": "824a879dafe155e8f92e13a5a75e8c4ca27b4dab805e83b9c215fcd1d08b74de"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_10_02_03.bnd.edat",
+      "bytes": 4256880,
+      "sha256": "2ac025c9060524006b580a01bdcd775f110c3c301d4cba04df290b811ed9e136"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_10_02_04.bnd.edat",
+      "bytes": 6034720,
+      "sha256": "097cdb36b2c348ceb9471546358593f58cb0166ed6cdea3bfa389ea7a4ec313c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_10_03_02.bnd.edat",
+      "bytes": 9077568,
+      "sha256": "256b539fc7d5ffeced85c6a28cdecbb3838a9c82b5a7434a945033f4434d9118"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_11_02_01.bnd.edat",
+      "bytes": 4334752,
+      "sha256": "55f2d4ffd59b29979ca1e850907d8a5bbb2938cea0dc29a639f055e3a3341dc2"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_11_02_02.bnd.edat",
+      "bytes": 4962240,
+      "sha256": "7edc0634208e20ae323d4545e0fa2de2f613142ae00073f2fd8e623e71b98f7a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_11_03_01.bnd.edat",
+      "bytes": 2990464,
+      "sha256": "07a773b87640216ebe8de6cea93912bfa0b62a3be1e8f31d0dc2c4b7ec09ea8b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_11_03_02.bnd.edat",
+      "bytes": 5534752,
+      "sha256": "fca3835a7890c4248737435828bae3f0c7796a736b739a87f05e9119fca990db"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_11_03_03.bnd.edat",
+      "bytes": 2549872,
+      "sha256": "bec509c28b2e5e780aeb874e0da560ba6b18104b868a070c4b02a2252b07c45d"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_12_01_01.bnd.edat",
+      "bytes": 4445488,
+      "sha256": "d53c51ce85b4fdc09e36331e8d93455d815a48f4053de8c41f8919334b32842b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_12_01_02.bnd.edat",
+      "bytes": 5836880,
+      "sha256": "3d3b63c7807154e004f77d21a310e078523591f0956ca1eb909214947dfb988c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_12_01_03.bnd.edat",
+      "bytes": 6039504,
+      "sha256": "767bcfb66cd7cd5ddbc5e5b174c58da29ff26bdfe8f0af2abef1ff7dbe65d6a7"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_12_02_01.bnd.edat",
+      "bytes": 4411456,
+      "sha256": "0e078083dbf6b4da2999c33a79bc7d2b9a2dcd7ba7ac3adfc76ff5671f0a6d22"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_12_02_02.bnd.edat",
+      "bytes": 5279968,
+      "sha256": "0290017b5a90a21c3875ec4a84b23992e44e21f81f157ac5ca6635a5c4f736de"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/story/lsd96_12_03_01.bnd.edat",
+      "bytes": 5783712,
+      "sha256": "c004dafec03ad4154c0619b8903484a7daf92362b4294451da2c8c2339f16408"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_07_01_01/outline.fmg",
+      "bytes": 118,
+      "sha256": "8c817d01eca2699043d4bf9d77af79ef4cbe18086ecfc2edf6feaab6672ec0f2"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_07_01_02/outline.fmg",
+      "bytes": 128,
+      "sha256": "ad76abdb6ea754075b9a19c84143a0639f977d9ae2735592d83aeb96ce72ce09"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_07_02_01/outline.fmg",
+      "bytes": 158,
+      "sha256": "267717445d12b22482dd8c9a7db1d09d96f9fed06402d28d12f8f7883b7edf1d"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_07_03_01/outline.fmg",
+      "bytes": 94,
+      "sha256": "8026d7f3198e617db29101b3e7e9e7b6cf14173dcbbc8bda34b3a088b0e2f7d8"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_07_03_02/outline.fmg",
+      "bytes": 126,
+      "sha256": "2aec897c7a94e1e3a5730aa9a4765a312cc05c9ef00a3640cf70ab676c3615cf"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_08_01_01/outline.fmg",
+      "bytes": 134,
+      "sha256": "26a3b0c1fa5c3eb2c893e1191bb0e001d850c670aa35aff8a5c1fcd75e6413d7"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_08_02_01/outline.fmg",
+      "bytes": 108,
+      "sha256": "e1aefdb3053967ed079feca160690fe5535d78098e76b10437cca7ff04e001a3"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_08_02_02/outline.fmg",
+      "bytes": 124,
+      "sha256": "0aa015b3a6262bef1bdc1509b4ddcba66eccf919af147657b0ec9f4bf628d969"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_08_02_03/outline.fmg",
+      "bytes": 96,
+      "sha256": "571a0099418f65f928a0e55637fbcafed327eebbd7123d862fe3e4762510bee2"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_08_03_01/outline.fmg",
+      "bytes": 124,
+      "sha256": "e573db645f130711206782c46ca3468f632403b782d81372e3118d05bd0ca53c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_08_03_02/outline.fmg",
+      "bytes": 126,
+      "sha256": "310a5a02b338dbe5d5b73cad62b7d82abe55a148ff9d48d9dabc5567e9d47a65"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_09_01_01/outline.fmg",
+      "bytes": 114,
+      "sha256": "b9369aaac89fc244e22da9b86b3e78de0904f2b793cfb3f4fd77e6b854dd2e4d"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_09_01_02/outline.fmg",
+      "bytes": 136,
+      "sha256": "b3eea61ab093adb8d378ca25e2f13c21c14dde74703b292611153932b897589b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_09_02_01/outline.fmg",
+      "bytes": 158,
+      "sha256": "e6435e7f21d1dcb5d0b3aac1d7814ce903b73acaa0fdc8ec6dafd8e365e8a950"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_09_02_02/outline.fmg",
+      "bytes": 120,
+      "sha256": "c528b3dcb6e7832d0abecd1b9523d87635634017bb13c712a03bb178bf404641"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_09_03_01/outline.fmg",
+      "bytes": 120,
+      "sha256": "65d5a1e96f5d7623a8a97f0572a0e6ff2d6ac3da3b96eb96b072ceeed44be19d"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_09_03_02/outline.fmg",
+      "bytes": 92,
+      "sha256": "7ca1eb31bc423fbba4d4469dfd1528c83e2492252a23288006e4b6cc3090b5b3"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_10_02_01/outline.fmg",
+      "bytes": 116,
+      "sha256": "fb2dcb6ca4d60a9046c3018b074f1c636ee49f3390c060d47a35fbe8617e8bca"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_10_02_02/outline.fmg",
+      "bytes": 108,
+      "sha256": "8ef6a1e9e80de07cd44d384c4dc12f0cb3733daa94b9e84a07390cb9a91055a8"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_10_02_03/outline.fmg",
+      "bytes": 136,
+      "sha256": "9657441df3a313cb43f837317eda593945c1b4766bd1d382443fe6848e03827f"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_10_02_04/outline.fmg",
+      "bytes": 140,
+      "sha256": "abf8d863020717ae4398c629c2804ee011f17f0903b4cf1f7aa1d76e702992d1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_10_03_02/outline.fmg",
+      "bytes": 116,
+      "sha256": "3db58243ac59c5940d67abe31e8734dc5bd403a2027de2eea3d937855f8f6ac0"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_11_02_01/outline.fmg",
+      "bytes": 84,
+      "sha256": "5f4823f15b76700e3005215e9b508024b6e0502646cc322347b8cdf1a1f6c930"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_11_02_02/outline.fmg",
+      "bytes": 102,
+      "sha256": "7bb97bb820f4b92d6ecffffbc23a595ea24088fb0d4de3932d6d069a3ab3ba54"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_11_03_01/outline.fmg",
+      "bytes": 144,
+      "sha256": "ac5bce612d48770736c072f989c2de020087cd8ccc7a6bd2d24bbc35656e2556"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_11_03_02/outline.fmg",
+      "bytes": 120,
+      "sha256": "831b1a0b000742d55606746b09b50d10957ac28803093275858ea8444fdee125"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_11_03_03/outline.fmg",
+      "bytes": 108,
+      "sha256": "906f696e9199e9433ed88c88d1dd65779fdc5c52afaff195d376fabeb1e0b7e6"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_12_01_01/outline.fmg",
+      "bytes": 120,
+      "sha256": "625d360ef37aceabeaa4a2a8109727c95282715ede6825cea3c6301ac1510f12"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_12_01_02/outline.fmg",
+      "bytes": 138,
+      "sha256": "75adddb5567d9fdb87861487d24066d570fc6342fb3493837ce3e2497c1e3513"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_12_01_03/outline.fmg",
+      "bytes": 86,
+      "sha256": "a369123aa1db0b2da581261ef3de768a5ef22f669c6afd38a275e781d2f0a9f0"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_12_02_01/outline.fmg",
+      "bytes": 118,
+      "sha256": "e2cf61eda3df868161f976ff1454c2685d18c5a8b7531a1df070468b9d3871df"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_12_02_02/outline.fmg",
+      "bytes": 88,
+      "sha256": "51ea32f6fd70e52fe315cb3f3ba12103c33b2e1e27a25a639a6cf10ed6a55f1a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/menu/storydemo/lsd96_12_03_01/outline.fmg",
+      "bytes": 92,
+      "sha256": "91ada014e9a62848efa11a401a6b5f56fa459bf5810a1ff675ff9087da809b19"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_03_13_4.bhd",
+      "bytes": 3422,
+      "sha256": "600e821f32268e58cf887dd0ce47aa049477ffd78edc1a3c2dd9937ff9e327dd"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_03_13_4.bdt",
+      "bytes": 426112,
+      "sha256": "9d7d1c24fa33c68dae11fc9619910daec9e51cd209d67dea2d35c7b2b88bfa2b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_03_30_0.bhd.edat",
+      "bytes": 3824,
+      "sha256": "40b3008112c2cf75ac30de5bf916662ba8f509f70ffcd3d592cfbf948fe5f1a4"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_03_30_0.bdt.edat",
+      "bytes": 3591168,
+      "sha256": "7282899bc9261e17be93756dda4bf784f88558c57b8b0b7e0ecdf8e54c22cbb3"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_03_30_1.bhd.edat",
+      "bytes": 3872,
+      "sha256": "a3f73fbaa1d7e4048a774f6f0ef1621d5ab4814744ab9a5ef2f1549488c02421"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_03_30_1.bdt.edat",
+      "bytes": 6690304,
+      "sha256": "f8e672bdcd2f15a1ddf0aa97cc28950ad6717df86b6f3ab7d263039fea9b11e1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_03_35_0.bhd.edat",
+      "bytes": 3712,
+      "sha256": "ea7e550a7a71057b79f296084d3f9af85280c929242860a4fbc7a9e9c68506ec"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_03_35_0.bdt.edat",
+      "bytes": 411536,
+      "sha256": "6662b5d90f4baa97720584773ff19b1a7bfb02848b23542adcaf79fbc3ec5e26"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_03_35_1.bhd.edat",
+      "bytes": 3712,
+      "sha256": "783bafb4317baa39a11528e34108ca8016586a2eb7378bcceb1e7ccb55656f26"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_03_35_1.bdt.edat",
+      "bytes": 438736,
+      "sha256": "815b6a3b32dc65f3a869f7e890d5f0e92b7a3fcb82c9bab2e020f908063eb8aa"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_03_40_6.bhd.edat",
+      "bytes": 3712,
+      "sha256": "56149e60a2b28874f7f34c4e5a9b9bd36f966eddf3c140db70fb941fc045365e"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_03_40_6.bdt.edat",
+      "bytes": 439120,
+      "sha256": "743fe3ab88e14f1bd89cd6e03221933ea2d16bbb52df9c7b8d428e8286aa01aa"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_06_35_3.bhd.edat",
+      "bytes": 3824,
+      "sha256": "63a928539175d74fcc1f996550764335ccf7da216f48efd62db7df4ad6eddab7"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_06_35_3.bdt.edat",
+      "bytes": 2118224,
+      "sha256": "849327ea94d6edaeae46c8c9c75f263ae75856229bb5499d5349a5404807770d"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_06_40_1.bhd.edat",
+      "bytes": 3776,
+      "sha256": "f929e0b61ee3cef6bca02c421be72c9fce510b0f3b16c1be37ebdba9f994b86f"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_06_40_1.bdt.edat",
+      "bytes": 1889952,
+      "sha256": "055673ad3c12f3f7f71bce900636f9e1342841c62c3cb2988691e1628edf8c87"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_07_30_2.bhd.edat",
+      "bytes": 4448,
+      "sha256": "4a869d2e790e3d93ef6379bceb6fc56abd982b2368f7574ea547f0083aba6e30"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_07_30_2.bdt.edat",
+      "bytes": 3077760,
+      "sha256": "01aa204bea5fd70d80df10df3804a3a86171a14b06c4881e8f1221ffc7736e57"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_07_35_4.bhd.edat",
+      "bytes": 4864,
+      "sha256": "56ccbf368d3a80fe428bc791629a8cb3cd9a819a6defaaad6dadfb0e70b4410c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_07_35_4.bdt.edat",
+      "bytes": 6411680,
+      "sha256": "b921957247877baec38b3fbaf811384e22b1df3ba524b63a4bf82cb6a81771b3"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_07_40_2.bhd.edat",
+      "bytes": 4864,
+      "sha256": "f6eaaaadef23d83534136e9b90812a7481ea8961084842049866ed0393dc09b1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_07_40_2.bdt.edat",
+      "bytes": 6357808,
+      "sha256": "eb6460343fd19cd933fc182bc9dd281475a360741b73e266ec326f3c04632e7e"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_07_40_3.bhd.edat",
+      "bytes": 4864,
+      "sha256": "8639a87db9e910d5aa5685a17b99ec3293134cd0a445acdc20305dca2b9f49f8"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_07_40_3.bdt.edat",
+      "bytes": 6361168,
+      "sha256": "7661b4702d309d34c164c6cb97f6b5c66a67ac147d565fa6da2e6beeeb4f71af"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_08_35_5.bhd.edat",
+      "bytes": 3872,
+      "sha256": "e971ff5b0f1c8efdeb7111995affb1165ac41f6b5f566558fb11344461d7fd1b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_08_35_5.bdt.edat",
+      "bytes": 5758784,
+      "sha256": "9077671ddf0f2c7e921451bd3fed4df88b0ac118ac84ab7ca52a366359c30c3d"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_09_40_4.bhd.edat",
+      "bytes": 3776,
+      "sha256": "967e0b7593219ee8ad019c97ebd2b0b010441f58e9d9b2d8045c2754959694c4"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_09_40_4.bdt.edat",
+      "bytes": 1751376,
+      "sha256": "d03570e13ea2c2be03798ce4eb8899e0b1120e5e11765458cd1ee740fd14bbe4"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_09_40_5.bhd.edat",
+      "bytes": 3776,
+      "sha256": "de80935fdda4ed33610c9e241bb6cf83e8216838be3cd230499284b8910c0194"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/mission/m01_09_40_5.bdt.edat",
+      "bytes": 1743424,
+      "sha256": "4cced81f5a9f6099f7c05bf1cd982f1c7ac0528fda0560383fb0bd2f85513fdf"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_013_00.bnd.edat",
+      "bytes": 179888,
+      "sha256": "6a7c5cc317b56bca1ab146959b5b233ba90839e0646a03a28b920311e7450e91"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_014_00.bnd.edat",
+      "bytes": 195920,
+      "sha256": "81d995ff44e36da2bc97e4757e1ccfbfca0455406415798cc286614a01a23fad"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_024_00.bnd.edat",
+      "bytes": 137152,
+      "sha256": "67df836da3830e1ebb999bb8452339d6a23622fd4429575b1aacd9d9b452e2a1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_025_00.bnd",
+      "bytes": 67856,
+      "sha256": "8df8c1306b01a87b19b8447ef3ebc1ac25210272794ae7a8cb1b57ec01ab1120"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_202_00.bnd.edat",
+      "bytes": 186080,
+      "sha256": "d13194a0b8f399d840a59677aad9d90b158dec5be6e1166df9079f187ec23e05"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_203_00.bnd.edat",
+      "bytes": 202208,
+      "sha256": "b41e2d37565838759aa6ab7c841fa8d6ac2a628a637e78b468fc0c54623cbb96"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_210_00.bnd",
+      "bytes": 220092,
+      "sha256": "e06d40bc92479e6df407dd5b876ce01c5e67e1ee1ac1b3e0afeba1ef026269a5"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_211_00.bnd.edat",
+      "bytes": 185232,
+      "sha256": "f8535bb4cb9782a00c7d19bee1729dcb01fd3ced7893f2ec253af896d9a0103d"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_513_00.bnd.edat",
+      "bytes": 72272,
+      "sha256": "78eaac3fe667c1971db2b2c3b02cd76923f9702378f99cdf2bfa781cc9a78a38"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_514_00.bnd.edat",
+      "bytes": 53344,
+      "sha256": "4962a8b7c66c4d5a8710a10597117e54f90ff653f746337d52e43dfc10c78e04"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_519_00.bnd.edat",
+      "bytes": 61328,
+      "sha256": "6892fcc74f7d190f0adb206c2a6c828b9049bb63633e2717b4308cefd0f772a5"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_522_00.bnd.edat",
+      "bytes": 53056,
+      "sha256": "634dec30030563a16868a120d753d39af4ee492f43ce1cdb690592275f463cf4"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_523_00.bnd.edat",
+      "bytes": 66960,
+      "sha256": "1c1270bc5e628c2b6978bd0bd58cff4f71548b749731819dee9ea5259b67d0a1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_524_00.bnd.edat",
+      "bytes": 53424,
+      "sha256": "238bf4bbded19736d2b524e2c87759953834dea3684b8666fc5d00b991d5110a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_525_00.bnd.edat",
+      "bytes": 51312,
+      "sha256": "d665d7bf63da8f64695d0d1904c6bca2b80b1685af444ab0601dc2f35c601703"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_529_00.bnd.edat",
+      "bytes": 68784,
+      "sha256": "8c52e2cd5de5cab8712d31f06d423e673f24436ea28ac65de52cb2d3177abae1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_530_00.bnd.edat",
+      "bytes": 53648,
+      "sha256": "8ecfd71ab31127bf0b87e2df16082f3e56f53ae1fa75eaaf0013304702ca07c6"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_543_00.bnd.edat",
+      "bytes": 64992,
+      "sha256": "5990af8c0c01ca4744a24024fd954bece835f097d2cf56ef35e1f01a227c15a6"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_560_00.bnd.edat",
+      "bytes": 62416,
+      "sha256": "53bb409154ed3bebf037221dcd9a456fb1add62ec8a3de3d2d2e7d026b3fae0e"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_561_00.bnd.edat",
+      "bytes": 56512,
+      "sha256": "15df515477e401fd4c8005cc6fb63a240f7886a85cc1112a0c802300425516a2"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_702_00.bnd.edat",
+      "bytes": 65040,
+      "sha256": "4741bf787a97a732be1d383cf314743368773376818423f8ca46394d54e096b2"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p01_703_00.bnd.edat",
+      "bytes": 65488,
+      "sha256": "b06155e1e8190c824756ccbba463d94bf8112151155ac18dad27ef624480d6c8"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p04_010_00.bnd.edat",
+      "bytes": 171248,
+      "sha256": "9226df484ee995f90eb3416bb88f7b574b7e4a154ba0620b710b5ef9e2b995fd"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/pilot/p04_200_00.bnd.edat",
+      "bytes": 161520,
+      "sha256": "201bd9fb96047a8a537f104497c12ffa63c65309983ef701737daa81283b76fb"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_030_00.bnd.edat",
+      "bytes": 9103040,
+      "sha256": "bfaca71a89dd8081ab38459fe0d620994e0cb5133ed2841c52bef38bcb27425e"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_064_00.bnd.edat",
+      "bytes": 11247856,
+      "sha256": "90c4c959ac2442cf798e3259a6cdcf0a642d50a3489f82043bd1820c5f5c93a5"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_065_00.bnd.edat",
+      "bytes": 11258384,
+      "sha256": "b4fbe169a92e3e6a000c75cdfdfb0d15ae2a953c1388a7a65b33a820dbc86c7a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_066_00.bnd.edat",
+      "bytes": 11355712,
+      "sha256": "09e7dd572782aabcb244e64b29989520e8e5326a7cb535a5d3395942208d77bb"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_067_00.bnd.edat",
+      "bytes": 11392656,
+      "sha256": "11dd8387d02de626a686b46e35bc4c91d9836e82f80d39043a463e9348524953"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_072_00.bnd.edat",
+      "bytes": 11475024,
+      "sha256": "d868a98e55716f42adba96b4a3646837da124b7a82442554942e5871caf6fa25"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_073_00.bnd.edat",
+      "bytes": 11318016,
+      "sha256": "9ebab0017421b566f5ffc3d89b7a8d83d8e8488518afe160ee9fa6a190b2a5fd"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_074_00.bnd.edat",
+      "bytes": 11395696,
+      "sha256": "f6cc10b887e42a50b1b28c5c3b31e9df87b7ee6ef7ee86fa7095ecee72440144"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_075_00.bnd.edat",
+      "bytes": 11173472,
+      "sha256": "d61fb64ffd9b75c3c3fa0495c160c8096d1213ec4e37393ab53fd73179e91876"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_102_00.bnd.edat",
+      "bytes": 8580896,
+      "sha256": "d69d3b92ff4a4afd69e4efd8651f1af2ac1b3f67871909e6f3e61d24ded3e1e4"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_114_00.bnd.edat",
+      "bytes": 10224528,
+      "sha256": "c6a41acf3ce3fd545ff39e3a70794e1d6f041e884a4b28ac7e19f65863db0edc"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_210_00.bnd.edat",
+      "bytes": 10006720,
+      "sha256": "f9e517151ce90d76f28af9e07c11af32dfca7f3cceda765792bccdf29ae7e6bb"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_215_00.bnd.edat",
+      "bytes": 9863760,
+      "sha256": "2625f2f9603ed256d51c392d73fd309369f78356686a64b58d23d44542f20d15"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_502_00.bnd.edat",
+      "bytes": 10695456,
+      "sha256": "c12d151227ca9774e1c0285444eb19b33b684bbfbbdc8040030c5f9d0256c0fe"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_682_00.bnd.edat",
+      "bytes": 8734144,
+      "sha256": "732faa6b903002614e91178b2b40174c6eedc7ba2f67eebea535e25000b3182a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_683_00.bnd.edat",
+      "bytes": 9745776,
+      "sha256": "99629ef0e0ff5c6d536dbe1fd5507b7c74c9d183a831fe0eb343a66bde115b20"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c01_701_00.bnd.edat",
+      "bytes": 9676464,
+      "sha256": "7f6e5feb186fda71c18335c5168f401729805f134afe3f0fd48b8847c98b4092"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c04_010_00.bnd.edat",
+      "bytes": 9993616,
+      "sha256": "35d4a76cf74e8211f9acc08ba79ecaab061c04a9ea1e18a048a3dc234fed1022"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/player/unit/c04_500_00.bnd.edat",
+      "bytes": 10409264,
+      "sha256": "033ad14cd94bc106fc5b227b971febd56ebd31dc0ba09835ba88e396cdc06020"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w01_072.bnd.edat",
+      "bytes": 455984,
+      "sha256": "9c8ee8ea93ea57da1589964acb10891193b2ff61472b10339f3bea8a7317cd5c"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w01_074.bnd.edat",
+      "bytes": 504064,
+      "sha256": "e01b0c3eac08c9863914232a40c6c80f016b8f607fd4a0d9beb431db8f3e9d09"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w01_502.bnd.edat",
+      "bytes": 345536,
+      "sha256": "5170a656df726a998568cbafcccf6ccea11cb3541dd5a9c96310341362fb9759"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w01_504.bnd.edat",
+      "bytes": 666048,
+      "sha256": "9d6b02137a72b38bdfdc4e2f10db4d2edc11bc8b22b55f01c68e08a9a3a54849"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w01_506.bnd.edat",
+      "bytes": 484400,
+      "sha256": "af011a109d9b89cd4ea0e015bed6e6311dedb76b7a017bdb9b97d4594871a8e9"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w01_508.bnd.edat",
+      "bytes": 494992,
+      "sha256": "1e6fa41ac4bb686f9ccf61d0d9df1b4b924c5331a108332a8b00c6865eabe7ba"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w01_604.bnd.edat",
+      "bytes": 247216,
+      "sha256": "a57e3b47318a3281f1a184715f701eda04af3d4ac432486553db296ea86f9945"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w01_610.bnd.edat",
+      "bytes": 276480,
+      "sha256": "a472825f6f473c92691e57240edd7f81152d3bda516ace4739a41690a2d54e15"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w01_682.bnd.edat",
+      "bytes": 276336,
+      "sha256": "4556fe019ff886b50fb50a5536e3fab802cf8a32182734a4b4198426f93645a7"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w02_010.bnd.edat",
+      "bytes": 258064,
+      "sha256": "d241c096d8f1232754bc6cfcd7a2f7ffdbf2b6a57e69921d75f76d3208ae75e0"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w02_020.bnd.edat",
+      "bytes": 233056,
+      "sha256": "418709c4960aaa3d4dd9f64acb2d6f57cf2aa369089dbfb5c382d44e7bfd5ce1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w03_010.bnd.edat",
+      "bytes": 325088,
+      "sha256": "e64d567afb2a82108e37fd5c7bd419eb38223bb05bf4e2935eeae5f42c801553"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w04_010.bnd.edat",
+      "bytes": 231920,
+      "sha256": "5cdcbffc4a66c7df0ea0de0201a97f706a0b0fc4aa71d7a11fe31ef00bc47814"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w04_500.bnd.edat",
+      "bytes": 386192,
+      "sha256": "ca3dd6d2601ee4f8bc83851cbe6551c435ac5a69a6c0d5649c2f7bf5662bc553"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/weapon/w05_010.bnd.edat",
+      "bytes": 287392,
+      "sha256": "c67031c5a5444d092b9c6ef70f4df8086337f22fecf99c91a6bc1ae06e3f7132"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/version/version.bnd_20120121",
+      "bytes": 3587500,
+      "sha256": "f0a77f9c537763db4fdac7c53313f1e9c87f6d981122965d33b1e9a6f5779762"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000010.plist.edat",
+      "bytes": 2576,
+      "sha256": "dd61b644b0f2d6274be6dc440351507d2fb2f4fc8dafd504f228c3ab298756d6"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000012.plist.edat",
+      "bytes": 1728,
+      "sha256": "1bbe8fd70f79e84cdbca869fcc8ed270562c4491fe67704954a670b1be087258"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000013.plist.edat",
+      "bytes": 11360,
+      "sha256": "e37ff6629cce0d1ad08746211b5f4d469cace0c2d47cc1e17404636e11df3521"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000014.plist.edat",
+      "bytes": 3408,
+      "sha256": "a6d0e2df56a489801dfeacac764bfcca4143c6dbcedbdbc9d6340be367f57d9e"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000030.plist.edat",
+      "bytes": 2816,
+      "sha256": "c4c94defa352bb1debcd0f1e72bc9c6d4e30073d686bc6344938264406cd5660"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000040.plist.edat",
+      "bytes": 5088,
+      "sha256": "bf200d1cf17035b15940b6201c17b415bea414578696c5d790e1998cc3d5224b"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000050.plist.edat",
+      "bytes": 3456,
+      "sha256": "02634ca5a9cc456bf729fe256b2d3c00f94f971cf80f848fe052f29c981a4561"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000060.plist.edat",
+      "bytes": 2688,
+      "sha256": "0709b72e917657b7266af1b9e30502bb48004943b8fc77f87b1e277cf389291f"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000071.plist.edat",
+      "bytes": 2688,
+      "sha256": "24f3fa3a61f006d93efd5b9e6328eefe8e9bbe976f04fd7be5cd881dc8ca4956"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000080.plist.edat",
+      "bytes": 2576,
+      "sha256": "1da035de7f1aaf6f8b1a615f26ecc488ff6205734b73553d4b3bc8dc5ff67943"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000081.plist.edat",
+      "bytes": 2864,
+      "sha256": "5b9610be01c01d06864dc66069043518267775e7ebec24b419819b26b035ab84"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000090.plist.edat",
+      "bytes": 2576,
+      "sha256": "4ed871df09ca4919e9dc9b6472536055bdb82c0d94517c4c7eb3f00cb2c3ac0d"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000091.plist.edat",
+      "bytes": 3760,
+      "sha256": "dc7129457c0501e5ddf6f696f0400988d06f34a9dec6b2df053a4173ac9a7534"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000100.plist.edat",
+      "bytes": 2576,
+      "sha256": "67d37d5e16637b6f16f67eea4505d974de1ab02ccf4b2e1a2d137a0d54e6136a"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000101.plist.edat",
+      "bytes": 4496,
+      "sha256": "18ef9de3b7ec00e1248820dca79849fd26a7862dc15f5fbca78c37a3356682d0"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000110.plist.edat",
+      "bytes": 3408,
+      "sha256": "a873d5826c680aec0a60b6f35e7f047efb6cc25155d75b1b1ccaf76d9da3dbbd"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000111.plist.edat",
+      "bytes": 3696,
+      "sha256": "80a081242c6d1b4aed5b17991f4a7f4ca78d0879edb4c389d12a68734efff033"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000120.plist.edat",
+      "bytes": 3408,
+      "sha256": "3d702c86f33c4f6a38c2ca1bc7fdf06609a18d5cf187bb3fd5b5b61a0eb9db69"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000121.plist.edat",
+      "bytes": 3696,
+      "sha256": "2f0bfafccd15518e70b1c2800e7d5d80d20f43818e08dd565aa55cdc8e8a58d3"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000130.plist.edat",
+      "bytes": 7088,
+      "sha256": "4e5e19ec6ad5afcdc01d4b2e0a77134aeb181e31ea474e5d2fe58cc03ff952e1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000150.plist.edat",
+      "bytes": 2800,
+      "sha256": "b3466f616c81ded792fdf7eddcfca5ad4cf3ac355428c6d53f8468418484a614"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000160.plist.edat",
+      "bytes": 4752,
+      "sha256": "17990647167a45005f4518706de166a39e506d621eb69adcc2a38ad673b5f8e1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000170.plist.edat",
+      "bytes": 1696,
+      "sha256": "335a91abeb60a270fd284b95d5613a34f387f1e127c3f046d05409d38dda2ce9"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000180.plist.edat",
+      "bytes": 1696,
+      "sha256": "064e25cfbb6b24b73f1cc367fc514edce629b65be5cd4ed717e9e80749ded095"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000190.plist.edat",
+      "bytes": 4752,
+      "sha256": "71408797bceb4e032b128ce54f761c9792155894f72763edb16113b209394b0d"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000200.plist.edat",
+      "bytes": 1696,
+      "sha256": "c07c4e11849af8d5f96824ff1972194f47f6453eb6c47dfd9b56c26fb6d30e26"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000210.plist.edat",
+      "bytes": 1696,
+      "sha256": "2b908af995a524c9917baa5870cacce0a38e9b4b790f13ed9976f435493999c8"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000220.plist.edat",
+      "bytes": 1696,
+      "sha256": "a8dbf94446f7a240a8cddf96228244b14b9aa274adf565dcc524156405e07bb7"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000230.plist.edat",
+      "bytes": 4096,
+      "sha256": "a05a4a5483563263a013c661d49d4d43cb13a6be739f901874d67c30969f67b7"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000240.plist.edat",
+      "bytes": 1696,
+      "sha256": "8d8bd8316f6121eafe8802cdca06c4a39c8adee5e2be062d7d99c8a1fe3e1350"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000250.plist.edat",
+      "bytes": 1696,
+      "sha256": "b219b95cba512417b09776cd31ea0f3194977399fa4b329b869ecf0c6783f665"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000260.plist.edat",
+      "bytes": 4752,
+      "sha256": "c266d74d22b9f0dd562d90b0497106ffada8024cbffb5449e3a0dd169f0e077e"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000270.plist.edat",
+      "bytes": 1696,
+      "sha256": "303287ee499746869669e33dd17272bea24107cba5401527bf6c428440278486"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000280.plist.edat",
+      "bytes": 1696,
+      "sha256": "de7b8de72a23f060aa64aaa11a9f4eb0cb6b917996be5ad6de2cacfd0a05d916"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000290.plist.edat",
+      "bytes": 1696,
+      "sha256": "e2549ce5cd7c1b278e3c212dd5c26957dc97ee05429f72beceb7fbdefbd05815"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000300.plist.edat",
+      "bytes": 4096,
+      "sha256": "c8348e9f8549beb2847ec1f89fde873a02e728d20239a819a7c3aae968635195"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000310.plist.edat",
+      "bytes": 1840,
+      "sha256": "a598b5e7a62002661a93a99d031819388ce66eaf988728c5196e33a6e7a3bace"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000320.plist.edat",
+      "bytes": 1696,
+      "sha256": "56bccf8b2e198db8ffcc61033ea0ad52eccdd82baa013ea4aefa4eddba16ccd6"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000330.plist.edat",
+      "bytes": 1696,
+      "sha256": "1069e5fdd519269849e6a2590b012fb8fe8d22b614afec2b12fd076bebbd56ce"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000340.plist.edat",
+      "bytes": 5904,
+      "sha256": "94161338c3f7d535533bf551cfb12775dce30b86cc39ab1be7b955a5d028f6bb"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000350.plist.edat",
+      "bytes": 4192,
+      "sha256": "3aaf721322c8139aaf11e3861e135cb8a0fb8fd033d0b55c6d858b1a820907fd"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000360.plist.edat",
+      "bytes": 1184,
+      "sha256": "faa84acf96d40e8a9783d6e23fd0556ecada83598df9bc060f5aa8f50b01f8bb"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000370.plist.edat",
+      "bytes": 1184,
+      "sha256": "0048e3e1a2cf01f9c51b38679f781dce143ed4bfe6f3596558f17b51f663ee4e"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000380.plist.edat",
+      "bytes": 1184,
+      "sha256": "d0052bd84242b19e09d1e4b41b264fcab910364a0d4f9a51a0838c9b386c59b8"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000390.plist.edat",
+      "bytes": 1904,
+      "sha256": "8ee21f530a95c54bea02b0fb748689ce7377d3f4405deb63b9306f7906253bfc"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000400.plist.edat",
+      "bytes": 2256,
+      "sha256": "479d41a807a1464e66be26e728a8968a911931e7e7a8f494b84c86ec78d8f891"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000410.plist.edat",
+      "bytes": 2256,
+      "sha256": "dd5584698bfc32349353aedd7b2dc9036b4aad6dae8442a704b2f04b774b4f13"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000420.plist.edat",
+      "bytes": 2256,
+      "sha256": "34c8da24ba4ae853b542d9083abdaf8753979f677af6cdc12e4edad02b51d7e1"
+    },
+    {
+      "scope": "dlc",
+      "path": "USRDIR/system/packagelist/JP0700-BLJS10154_00-CONTENTS00000430.plist.edat",
+      "bytes": 2256,
+      "sha256": "91ded8a80b693d7bd478077e51c9c0ca9c9583fb2190bb33b2ed460d8f59ea5b"
+    }
+  ],
+  "installer_integration_tests": 14,
+  "decoder_tests": 5,
+  "actual_game_modified": false,
+  "platform": "macOS Apple Silicon",
+  "windows_linux_runtime_tested": false
+}

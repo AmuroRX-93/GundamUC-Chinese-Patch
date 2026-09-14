@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.zip
+*.iso
+*.pkg
+*.rap
+*.key
+*.dylib
+*.edat
+*.bnd
+*.bdt
+*.bhd
+.DS_Store
