@@ -142,6 +142,64 @@ class InstallerTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, '覆盖资源'):uc.plan(self.pkg,self.m,self.roots)
         self.assertEqual(self.target.read_bytes(),self.initial[self.target])
 
+    def test_verified_101_overlay_preserved(self):
+        data = b'fixture-known-update'
+        eb = put(self.dlc, 'USRDIR/EBOOT.BIN', data)
+        (self.dlc/'PARAM.SFO').write_bytes(make_sfo().replace(b'01.00', b'01.01'))
+        self.m['update_profiles'] = [dict(app_version='01.01', files=[dict(path='USRDIR/EBOOT.BIN', size=len(data), sha256=sha(data))])]
+        backup = self.install()
+        self.assertEqual(eb.read_bytes(), data)
+        uc.restore(backup)
+        self.assertEqual(eb.read_bytes(), data)
+        eb.write_bytes(b'other-update')
+        with self.assertRaisesRegex(ValueError, '覆盖资源'):
+            uc.plan(self.pkg, self.m, self.roots)
+
+    def test_missing_101_executable_rejected(self):
+        (self.dlc/'PARAM.SFO').write_bytes(make_sfo().replace(b'01.00', b'01.01'))
+        with self.assertRaisesRegex(ValueError, '不完整'):
+            uc.plan(self.pkg, self.m, self.roots)
+
+    def test_alternate_dlc_envelope_roundtrip(self):
+        row = self.m['dlc'][0]
+        source = b'same-plaintext-different-edat-envelope'
+        target = b'translated-alternate-envelope'
+        (self.dlc/row['path']).write_bytes(source)
+        patch_data = bsdiff4.diff(source, target)
+        name = 'payload/alternate-dlc'
+        put(self.pkg, name, patch_data)
+        row['input_variants'] = [dict(size=len(target),sha256=sha(target),accepted_sha256=[sha(source)],segments=[dict(payload=name,old_offset=0,old_size=len(source),output_offset=0,size=len(target),sha256=sha(target),patch_size=len(patch_data),patch_sha256=sha(patch_data))])]
+        backup = self.install()
+        self.assertEqual((self.dlc/row['path']).read_bytes(), target)
+        self.assertEqual(uc.plan(self.pkg,self.m,self.roots), [])
+        uc.restore(backup)
+        self.assertEqual((self.dlc/row['path']).read_bytes(), source)
+
+    def test_mixed_case_paths_keep_original_spelling(self):
+        renamed = self.target.with_name('LaunchData.bnd')
+        temp = self.target.with_name('rename-stage')
+        self.target.rename(temp);temp.rename(renamed)
+        self.assertEqual(uc.safe(self.game,'ps3_game/usrdir/LAUNCHDATA.BND').name, 'LaunchData.bnd')
+        backup = self.install()
+        self.assertEqual(uc.safe(self.game,'PS3_GAME/USRDIR/launchdata.bnd').name,'LaunchData.bnd')
+        uc.restore(backup)
+        self.assertEqual(renamed.read_bytes(), self.initial[self.target])
+
+    def test_previous_chinese_release_forward_update(self):
+        row = self.m['base'][0]
+        previous = b'previous-published-chinese-resource'
+        latest = b'latest-chinese-resource-with-restyled-fonts'
+        self.target.write_bytes(previous)
+        delta = bsdiff4.diff(previous,latest)
+        name='payload/from-previous-release'
+        put(self.pkg,name,delta)
+        row['input_variants']=[dict(accepted_sha256=[sha(previous)],size=len(latest),sha256=sha(latest),segments=[dict(payload=name,old_offset=0,old_size=len(previous),output_offset=0,size=len(latest),sha256=sha(latest),patch_size=len(delta),patch_sha256=sha(delta))])]
+        backup=self.install()
+        self.assertEqual(self.target.read_bytes(),latest)
+        self.assertEqual(uc.plan(self.pkg,self.m,self.roots),[])
+        uc.restore(backup)
+        self.assertEqual(self.target.read_bytes(),previous)
+
     def test_unknown_base_bdt_not_blindly_appended(self):
         self.bdt.write_bytes(self.bdt.read_bytes()+b'other patch')
         with self.assertRaisesRegex(ValueError,'不受支持'):uc.plan(self.pkg,self.m,self.roots)

@@ -41,7 +41,12 @@ def safe(root, name):
     root = Path(root).resolve()
     target = root
     for part in p.parts:
-        target = target / part
+        # Original UDF names and older ISO9660-derived bundles differ in case.
+        # Resolve each existing component, but never silently choose a collision.
+        matches = [x for x in target.iterdir() if x.name.casefold() == part.casefold()] if target.is_dir() else []
+        if len(matches) > 1:
+            raise ValueError('存在大小写冲突，未修改文件：' + str(target / part))
+        target = matches[0] if matches else target / part
         if target.is_symlink():
             raise ValueError('不支持资源目录内的符号链接：' + str(target))
     return target
@@ -75,7 +80,7 @@ def game_root(path):
         root = root.parent
     if root.name.upper() == 'PS3_GAME':
         root = root.parent
-    if not (root / 'PS3_GAME/PARAM.SFO').is_file():
+    if not safe(root, 'PS3_GAME/PARAM.SFO').is_file():
         raise ValueError('请选择包含 PS3_GAME 的已解密游戏文件夹；不直接修改 ISO。')
     return root
 
@@ -92,19 +97,41 @@ def load(package):
     if hashlib.sha256(raw).hexdigest() != expected:
         raise ValueError('安装清单损坏，请重新解压完整安装包。')
     m = json.loads(raw)
-    if m['format'] != 2 or m['game'] != 'BLJS10154':
+    if m['format'] not in (2, 3) or m['game'] != 'BLJS10154':
         raise ValueError('不支持的补丁格式')
     return m
 
 
 def payload_check(package, m):
-    rows = [part for r in m['base'] + m['dlc'] for part in r['segments']]
+    rows = [part for r in m['base'] + m['dlc'] for v in [r] + r.get('input_variants', []) for part in v['segments']]
     for i, r in enumerate(rows):
         p = safe(package, r['payload'])
         if digest(p) != r['patch_sha256'] or p.stat().st_size != r['patch_size']:
             raise ValueError('差分文件损坏：' + r['payload'])
         if (i + 1) % 100 == 0:
             print('校验差分包：%d/%d' % (i + 1, len(rows)), flush=True)
+
+
+def check_update(root, meta, m):
+    """Allow only manifest-fingerprinted update overlays; never replace EBOOT."""
+    names = {'eboot.bin', 'launchdata.bnd', 'gamedata.bhd', 'gamedata.bdt'}
+    overlays = [p for p in safe(root, 'USRDIR').iterdir() if p.name.casefold() in names]
+    if not overlays:
+        if meta.get('APP_VER') == '01.01':
+            raise ValueError('1.01 升级数据不完整，缺少已验证的 EBOOT.BIN。')
+        return
+    for profile in m.get('update_profiles', []):
+        if meta.get('APP_VER') != profile['app_version']:
+            continue
+        expected = {r['path'].casefold(): r for r in profile['files']}
+        found = {p.relative_to(root).as_posix().casefold() for p in overlays}
+        if found != set(expected):
+            continue
+        if all(p.is_file() and not p.is_symlink() and p.stat().st_size == expected[p.relative_to(root).as_posix().casefold()]['size']
+               and digest(p) == expected[p.relative_to(root).as_posix().casefold()]['sha256'] for p in overlays):
+            print('已核对升级版本：' + profile['app_version'], flush=True)
+            return
+    raise ValueError('存在未适配或指纹不符的本体覆盖资源；未写入任何文件。')
 
 
 def plan(package, m, roots):
@@ -125,17 +152,14 @@ def plan(package, m, roots):
         meta = sfo(safe(dr, 'PARAM.SFO'))
         if meta.get('TITLE_ID') != m['game']:
             raise ValueError('DLC 文件夹的游戏编号不匹配。')
-        override_names = {'eboot.bin', 'launchdata.bnd', 'gamedata.bhd', 'gamedata.bdt'}
-        for p in safe(dr, 'USRDIR').iterdir():
-            if p.name.lower() in override_names:
-                raise ValueError('DLC 数据目录中存在本版未适配的本体覆盖资源：' + p.name)
-        group_names = {x['path'] for x in m['dlc_groups']}
+        check_update(dr, meta, m)
+        group_names = {x['path'].casefold() for x in m['dlc_groups']}
         plist_dir = safe(dr, 'USRDIR/system/packagelist')
         if plist_dir.exists():
             for p in plist_dir.iterdir():
-                if p.is_file() and p.name.endswith('.plist.edat'):
+                if p.is_file() and not p.name.startswith('._') and p.name.casefold().endswith('.plist.edat'):
                     rel = p.relative_to(dr).as_posix()
-                    if rel not in group_names:
+                    if rel.casefold() not in group_names:
                         raise ValueError('存在本版未验证的 DLC 索引，暂不安装：' + rel)
         for group in m['dlc_groups']:
             if safe(dr, group['path']).is_file():
@@ -157,16 +181,28 @@ def plan(package, m, roots):
         if not p.is_file():
             raise ValueError('缺少游戏文件：' + str(p))
         sha = digest(p)
-        if sha == r['sha256'] and p.stat().st_size == r['size']:
+        variants = [r] + [dict(v, path=r['path']) for v in r.get('input_variants', [])]
+        if any(sha == v['sha256'] and p.stat().st_size == v['size'] for v in variants):
             already += 1
             continue
+        variant_selected = False
+        if r.get('input_variants'):
+            matching = [v for v in variants if sha in v.get('accepted_sha256', [])]
+            if scope == 'base' and not matching and p.stat().st_size == r['original_size'] and digest(p, 'md5') == r['original_md5']:
+                matching = [r]
+            if len(matching) != 1:
+                raise ValueError('资源版本不受支持或清单匹配不唯一：' + str(p))
+            r = matching[0]
+            variant_selected = sha in r.get('accepted_sha256', [])
         if scope == 'base':
             # An unrecognized patched BDT is refused even if its original prefix survives.
-            valid = p.stat().st_size == r['original_size'] and digest(p, 'md5') == r['original_md5']
+            valid = sha in r.get('accepted_sha256', []) if variant_selected else p.stat().st_size == r['original_size'] and digest(p, 'md5') == r['original_md5']
         else:
             valid = sha in r['accepted_sha256']
         if not valid:
             raise ValueError('资源版本不受支持，未写入任何游戏文件：' + str(p))
+        # Preserve the real on-disk spelling through staging and rollback.
+        r = dict(r, path=p.relative_to(roots[scope]).as_posix())
         changes.append(dict(scope=scope, row=r, old_sha256=sha, old_size=p.stat().st_size))
     print('检查通过：需更新 %d 个文件，已有本版 %d 个文件。' % (len(changes), already), flush=True)
     return changes
@@ -387,14 +423,14 @@ def choose(title):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='高达 UC 独立汉化安装器（RPCS3 / 日版 BLJS10154 01.00）')
+    parser = argparse.ArgumentParser(description='高达 UC 独立汉化安装器（BLJS10154；支持范围以包内版本清单为准）')
     parser.add_argument('--game', type=Path)
     parser.add_argument('--dlc', type=Path, help='可选：RPCS3 的 dev_hdd0/game/BLJS10154')
     parser.add_argument('--check-only', action='store_true')
     parser.add_argument('--restore', type=Path, help='含 restore.json 的备份文件夹')
     args = parser.parse_args()
     if not any((args.game, args.restore)):
-        print('高达 UC 差分汉化包 2026.09.14-delta.1\n1 安装汉化\n2 只检查、不安装\n3 恢复安装前资源')
+        print('高达 UC 差分汉化包\n1 安装或更新汉化\n2 只检查、不安装\n3 恢复安装前资源')
         mode = input('请选择 1/2/3：').strip()
         if mode == '3':
             selected = choose('选择含 restore.json 的汉化备份文件夹')
