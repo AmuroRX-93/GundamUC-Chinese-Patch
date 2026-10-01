@@ -1,0 +1,24 @@
+[
+  {
+    "platform": "Windows x64",
+    "version": "3.13.15",
+    "source": "https://www.python.org/ftp/python/3.13.15/python-3.13.15-embed-amd64.zip",
+    "sha256": "d1f04d990aee1253d8569e8e5104e30fa9f5fa830899f14843448872d936a2cf",
+    "modified": "python313._pth 添加 ../.. 以导入同包 engine.py；禁用 site；其它文件不变。",
+    "execution_verified": false
+  },
+  {
+    "platform": "macOS arm64",
+    "version": "3.12.14",
+    "source": "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.12.14%2B20260901-aarch64-apple-darwin-install_only_stripped.tar.gz",
+    "sha256": "81a359f1cfadd4da11766534c5913791cea55f26e1bb902cacd2a531bb1e4b2b",
+    "execution_verified": true
+  },
+  {
+    "platform": "macOS x64",
+    "version": "3.12.14",
+    "source": "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.12.14%2B20260901-x86_64-apple-darwin-install_only_stripped.tar.gz",
+    "sha256": "65b195c9cedc1fef6767f044f9822069adbd1bd9204d424ece4628776fdc04bb",
+    "execution_verified": false
+  }
+]

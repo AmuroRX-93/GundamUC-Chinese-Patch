@@ -1,0 +1,40 @@
+{
+  "format": "UC-OUTLINE-STATIC-20260930",
+  "base_release": "2026.09.19-delta.3-rc.1",
+  "runtime_verified": false,
+  "files": [
+    {
+      "name": "LAUNCHDATA.BND",
+      "old_sha256": "e68875cfda6500f7a6ad5fe55f20580de19c59906c05aaa16a0493192ccf6ea3",
+      "old_size": 20331008,
+      "new_sha256": "fdb10d8cea89744a05851ad357898a3f3c6a658faea938af1b895767b6633424",
+      "new_size": 21090016,
+      "mode": "replace",
+      "payload": "LAUNCHDATA.BND.zlib",
+      "payload_sha256": "d7e19f02397040c39ef35ff954648da318da51260adaf3532079fe7beb96fe85",
+      "decoded_sha256": "fdb10d8cea89744a05851ad357898a3f3c6a658faea938af1b895767b6633424"
+    },
+    {
+      "name": "GAMEDATA.BHD",
+      "old_sha256": "1d0dee21a7a4f60e77c3836164ec19cfd41208234b7489666d37b0d558ad903d",
+      "old_size": 148845,
+      "new_sha256": "e18a4e8ee10ff8fa0848768c2dd4bcbd03c3b2e31b06d53065f26c7bd8e4b856",
+      "new_size": 148845,
+      "mode": "replace",
+      "payload": "GAMEDATA.BHD.zlib",
+      "payload_sha256": "4288c9e0a049b6d68e64e901fa76b6dfee78ae969f4c2382157012b73e433f04",
+      "decoded_sha256": "e18a4e8ee10ff8fa0848768c2dd4bcbd03c3b2e31b06d53065f26c7bd8e4b856"
+    },
+    {
+      "name": "GAMEDATA.BDT",
+      "old_sha256": "8a1f79e0f1d48ed0a775b8b91408915892d04b0820678f0f8cd6f6b2900b2cfe",
+      "old_size": 1884115302,
+      "new_sha256": "d718d7ca1d08ac0a3f99f7048e4a14ba8d9f50304c1d2a73b9e1c6f54134b478",
+      "new_size": 1904312208,
+      "mode": "append",
+      "payload": "GAMEDATA.BDT.zlib",
+      "payload_sha256": "de8947cb39ad0be3ff8aae8153e596d982596287768777cc5e97a85513cc8d65",
+      "decoded_sha256": "de1116802b85d88a0e838a738918bfd488908929c8203f42eedab9870c75f646"
+    }
+  ]
+}

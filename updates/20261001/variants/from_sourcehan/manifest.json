@@ -1,0 +1,40 @@
+{
+  "format": "UC-OUTLINE-STATIC-20260930",
+  "base_release": "20260930 思源黑体/HUD 修复",
+  "runtime_verified": false,
+  "files": [
+    {
+      "name": "LAUNCHDATA.BND",
+      "old_sha256": "1d32dc6dd1a34315e6ce70b8fd70efaed062a05f07c1c22ff17bf6776906d655",
+      "old_size": 20487648,
+      "new_sha256": "fdb10d8cea89744a05851ad357898a3f3c6a658faea938af1b895767b6633424",
+      "new_size": 21090016,
+      "mode": "replace",
+      "payload": "LAUNCHDATA.BND.zlib",
+      "payload_sha256": "d7e19f02397040c39ef35ff954648da318da51260adaf3532079fe7beb96fe85",
+      "decoded_sha256": "fdb10d8cea89744a05851ad357898a3f3c6a658faea938af1b895767b6633424"
+    },
+    {
+      "name": "GAMEDATA.BHD",
+      "old_sha256": "96b833379b5cc751e830ff951bffc98842492b6d1e70b328f1d5a33cc3deb402",
+      "old_size": 148845,
+      "new_sha256": "e18a4e8ee10ff8fa0848768c2dd4bcbd03c3b2e31b06d53065f26c7bd8e4b856",
+      "new_size": 148845,
+      "mode": "replace",
+      "payload": "GAMEDATA.BHD.zlib",
+      "payload_sha256": "4288c9e0a049b6d68e64e901fa76b6dfee78ae969f4c2382157012b73e433f04",
+      "decoded_sha256": "e18a4e8ee10ff8fa0848768c2dd4bcbd03c3b2e31b06d53065f26c7bd8e4b856"
+    },
+    {
+      "name": "GAMEDATA.BDT",
+      "old_sha256": "5ccba6ecb84c5dfc1b3eb75d161dddf810040b41d4152e6fc8ea7e5cd8eb7d1c",
+      "old_size": 1898032362,
+      "new_sha256": "d718d7ca1d08ac0a3f99f7048e4a14ba8d9f50304c1d2a73b9e1c6f54134b478",
+      "new_size": 1904312208,
+      "mode": "append",
+      "payload": "GAMEDATA.BDT.zlib",
+      "payload_sha256": "e68b09bb1bd30181784760456d8667e47d3b462dba0caed554d2a30f3365a30c",
+      "decoded_sha256": "f19c5c0a70b6b4ced1ce7e62c605a0daf0a242953d87f010c230801761463ac3"
+    }
+  ]
+}

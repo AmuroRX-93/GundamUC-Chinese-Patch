@@ -1,0 +1,30 @@
+{
+  "tests": [
+    {
+      "test": "core, payload and bundled runtimes unchanged from startup repair",
+      "passed": true
+    },
+    {
+      "test": "from_20260919",
+      "real_resource_install_repeat_output_hash_and_mixed_reject": true
+    },
+    {
+      "test": "from_sourcehan",
+      "real_resource_install_repeat_output_hash_and_mixed_reject": true
+    },
+    {
+      "test": "from_outline_v1",
+      "real_resource_install_repeat_output_hash_and_mixed_reject": true
+    }
+  ],
+  "bundled_mac_arm64_entrypoint": true,
+  "isolated_mode": true,
+  "chinese_and_space_paths": true,
+  "different_cwd": true,
+  "text_prompt_cancel": true,
+  "process_guard_stubbed_for_isolated_resource_tests": true,
+  "windows_executed": false,
+  "mac_intel_executed": false,
+  "game_runtime_verified": false,
+  "real_game_modified": false
+}

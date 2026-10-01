@@ -1,0 +1,40 @@
+{
+  "format": "UC-OUTLINE-STATIC-20260930",
+  "base_release": "20260930 过场描边第一版（含Python/不含Python相同资源）",
+  "runtime_verified": false,
+  "files": [
+    {
+      "name": "LAUNCHDATA.BND",
+      "old_sha256": "fdb10d8cea89744a05851ad357898a3f3c6a658faea938af1b895767b6633424",
+      "old_size": 21090016,
+      "new_sha256": "fdb10d8cea89744a05851ad357898a3f3c6a658faea938af1b895767b6633424",
+      "new_size": 21090016,
+      "mode": "replace",
+      "payload": "LAUNCHDATA.BND.zlib",
+      "payload_sha256": "d7e19f02397040c39ef35ff954648da318da51260adaf3532079fe7beb96fe85",
+      "decoded_sha256": "fdb10d8cea89744a05851ad357898a3f3c6a658faea938af1b895767b6633424"
+    },
+    {
+      "name": "GAMEDATA.BHD",
+      "old_sha256": "fb936e171941ffbac319de71ffd18cb0f3581042cfc3136cf1953ad9b702706c",
+      "old_size": 148845,
+      "new_sha256": "e18a4e8ee10ff8fa0848768c2dd4bcbd03c3b2e31b06d53065f26c7bd8e4b856",
+      "new_size": 148845,
+      "mode": "replace",
+      "payload": "GAMEDATA.BHD.zlib",
+      "payload_sha256": "4288c9e0a049b6d68e64e901fa76b6dfee78ae969f4c2382157012b73e433f04",
+      "decoded_sha256": "e18a4e8ee10ff8fa0848768c2dd4bcbd03c3b2e31b06d53065f26c7bd8e4b856"
+    },
+    {
+      "name": "GAMEDATA.BDT",
+      "old_sha256": "3d1f01836777fe361d8a603f7fe6f783e940e7fe04ae5376f729fd5b29f83776",
+      "old_size": 1901410896,
+      "new_sha256": "d718d7ca1d08ac0a3f99f7048e4a14ba8d9f50304c1d2a73b9e1c6f54134b478",
+      "new_size": 1904312208,
+      "mode": "append",
+      "payload": "GAMEDATA.BDT.zlib",
+      "payload_sha256": "49301457244ff9756ffcec48abef9fdd3524ed650840eb9accac82239c974151",
+      "decoded_sha256": "10b405d9a8bce0c839cbcf9c1a4d6a886a70566121fa92ca67b5b586437a8294"
+    }
+  ]
+}
