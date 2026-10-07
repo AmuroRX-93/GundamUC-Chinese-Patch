@@ -1,3 +1,11 @@
+<!-- latest-release-20261007 -->
+## 最新正式发布（2026-10-07）
+
+[高达 UC 中文累计包 20261007 正式版](https://github.com/AmuroRX-93/GundamUC-Chinese-Patch/releases/tag/v2026.10.07-cumulative.2)
+
+累计资源版本保持 20261001，本次合入安装器启动、路径与 Windows 编码修复。非修复资源逐字节保持一致，离线安装器测试通过；Windows 与本轮游戏内启动尚未实机验证。
+<!-- /latest-release-20261007 -->
+
 # PS3《机动战士高达 UC》简体中文汉化补丁（BLJS-10154）
 
 适用于 PS3 日版 **BLJS10154：光盘 APP_VER 01.00，及已核验的官方升级 APP_VER 01.01**，面向 RPCS3。
